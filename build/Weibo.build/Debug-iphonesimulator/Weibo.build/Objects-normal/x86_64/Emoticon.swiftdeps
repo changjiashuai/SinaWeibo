@@ -1,0 +1,649 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Emoticon"
+provides-nominal:
+- "C5Weibo8Emoticon"
+provides-member:
+- ["C5Weibo8Emoticon", ""]
+provides-dynamic-lookup:
+- "png"
+- "image"
+- "chs"
+- "code"
+- "times"
+- "type"
+- "description"
+- "directory"
+- "imageText"
+- "emoji"
+depends-top-level:
+- "String"
+- !private "UnicodeScalar"
+- "UIFont"
+- !private "Character"
+- !private "Dictionary"
+- !private "Bundle"
+- "Int"
+- !private "UInt32"
+- !private "UnicodeScalarType"
+- !private "EmoticonTextAttachment"
+- "AssignmentPrecedence"
+- !private "StringLiteralType"
+- "NSObject"
+- !private "Scanner"
+- "UIImage"
+- "NSAttributedString"
+- "BooleanLiteralType"
+- !private "NSRange"
+- !private "NSMutableAttributedString"
+- !private "NSFontAttributeName"
+- "Emoticon"
+- !private "CGRect"
+depends-member:
+- !private ["Ps9AnyObject", "Bundle"]
+- !private ["Ps9AnyObject", "CGRect"]
+- !private ["Ps9AnyObject", "Character"]
+- !private ["Ps9AnyObject", "EmoticonTextAttachment"]
+- !private ["Ps9AnyObject", "NSAttributedString"]
+- !private ["Ps9AnyObject", "NSFontAttributeName"]
+- !private ["Ps9AnyObject", "NSMutableAttributedString"]
+- !private ["Ps9AnyObject", "NSRange"]
+- !private ["Ps9AnyObject", "Scanner"]
+- !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "UIImage"]
+- !private ["Ps9AnyObject", "UnicodeScalar"]
+- !private ["Ps9AnyObject", "addAttributes"]
+- !private ["Ps9AnyObject", "bounds"]
+- ["Ps9AnyObject", "chs"]
+- ["Ps9AnyObject", "code"]
+- ["Ps9AnyObject", "description"]
+- ["Ps9AnyObject", "directory"]
+- ["Ps9AnyObject", "emoji"]
+- ["Ps9AnyObject", "image"]
+- ["Ps9AnyObject", "imageText"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "lineHeight"]
+- !private ["Ps9AnyObject", "main"]
+- !private ["Ps9AnyObject", "path"]
+- ["Ps9AnyObject", "png"]
+- !private ["Ps9AnyObject", "scanHexInt32"]
+- ["Ps9AnyObject", "times"]
+- ["Ps9AnyObject", "type"]
+- !private ["Ps9AnyObject", "yy_modelDescription"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- ["CSo6Bundle", "deinit"]
+- !private ["CSo6Bundle", "init"]
+- !private ["CSo6Bundle", "main"]
+- !private ["CSo6Bundle", "path"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- ["VSC6CGRect", "deinit"]
+- !private ["VSC6CGRect", "init"]
+- !private ["Ps7CVarArg", "Bundle"]
+- !private ["Ps7CVarArg", "CGRect"]
+- !private ["Ps7CVarArg", "Character"]
+- !private ["Ps7CVarArg", "EmoticonTextAttachment"]
+- !private ["Ps7CVarArg", "Key"]
+- !private ["Ps7CVarArg", "NSAttributedString"]
+- !private ["Ps7CVarArg", "NSFontAttributeName"]
+- !private ["Ps7CVarArg", "NSMutableAttributedString"]
+- !private ["Ps7CVarArg", "NSRange"]
+- !private ["Ps7CVarArg", "Scanner"]
+- !private ["Ps7CVarArg", "String"]
+- !private ["Ps7CVarArg", "UIImage"]
+- !private ["Ps7CVarArg", "UnicodeScalar"]
+- !private ["Ps7CVarArg", "Value"]
+- !private ["Ps7CVarArg", "addAttributes"]
+- !private ["Ps7CVarArg", "bounds"]
+- ["Ps7CVarArg", "chs"]
+- ["Ps7CVarArg", "code"]
+- ["Ps7CVarArg", "description"]
+- ["Ps7CVarArg", "directory"]
+- ["Ps7CVarArg", "emoji"]
+- ["Ps7CVarArg", "image"]
+- ["Ps7CVarArg", "imageText"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "lineHeight"]
+- !private ["Ps7CVarArg", "main"]
+- !private ["Ps7CVarArg", "path"]
+- ["Ps7CVarArg", "png"]
+- !private ["Ps7CVarArg", "scanHexInt32"]
+- ["Ps7CVarArg", "times"]
+- ["Ps7CVarArg", "type"]
+- !private ["Ps7CVarArg", "yy_modelDescription"]
+- ["Ps7CVarArg", ""]
+- ["Vs9Character", "deinit"]
+- !private ["Vs9Character", "init"]
+- !private ["Ps10Collection", "Key"]
+- !private ["Ps10Collection", "Value"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Bundle"]
+- !private ["Ps28CustomDebugStringConvertible", "CGRect"]
+- !private ["Ps28CustomDebugStringConvertible", "Character"]
+- !private ["Ps28CustomDebugStringConvertible", "EmoticonTextAttachment"]
+- !private ["Ps28CustomDebugStringConvertible", "Key"]
+- !private ["Ps28CustomDebugStringConvertible", "NSAttributedString"]
+- !private ["Ps28CustomDebugStringConvertible", "NSFontAttributeName"]
+- !private ["Ps28CustomDebugStringConvertible", "NSMutableAttributedString"]
+- !private ["Ps28CustomDebugStringConvertible", "NSRange"]
+- !private ["Ps28CustomDebugStringConvertible", "Scanner"]
+- !private ["Ps28CustomDebugStringConvertible", "String"]
+- !private ["Ps28CustomDebugStringConvertible", "UIImage"]
+- !private ["Ps28CustomDebugStringConvertible", "UnicodeScalar"]
+- !private ["Ps28CustomDebugStringConvertible", "Value"]
+- !private ["Ps28CustomDebugStringConvertible", "addAttributes"]
+- !private ["Ps28CustomDebugStringConvertible", "bounds"]
+- ["Ps28CustomDebugStringConvertible", "chs"]
+- ["Ps28CustomDebugStringConvertible", "code"]
+- ["Ps28CustomDebugStringConvertible", "description"]
+- ["Ps28CustomDebugStringConvertible", "directory"]
+- ["Ps28CustomDebugStringConvertible", "emoji"]
+- ["Ps28CustomDebugStringConvertible", "image"]
+- ["Ps28CustomDebugStringConvertible", "imageText"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "lineHeight"]
+- !private ["Ps28CustomDebugStringConvertible", "main"]
+- !private ["Ps28CustomDebugStringConvertible", "path"]
+- ["Ps28CustomDebugStringConvertible", "png"]
+- !private ["Ps28CustomDebugStringConvertible", "scanHexInt32"]
+- ["Ps28CustomDebugStringConvertible", "some"]
+- ["Ps28CustomDebugStringConvertible", "times"]
+- ["Ps28CustomDebugStringConvertible", "type"]
+- !private ["Ps28CustomDebugStringConvertible", "yy_modelDescription"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Key"]
+- !private ["Ps17CustomReflectable", "Value"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- ["Ps17CustomReflectable", "some"]
+- !private ["Ps23CustomStringConvertible", "Bundle"]
+- !private ["Ps23CustomStringConvertible", "CGRect"]
+- !private ["Ps23CustomStringConvertible", "Character"]
+- !private ["Ps23CustomStringConvertible", "EmoticonTextAttachment"]
+- !private ["Ps23CustomStringConvertible", "Key"]
+- !private ["Ps23CustomStringConvertible", "NSAttributedString"]
+- !private ["Ps23CustomStringConvertible", "NSFontAttributeName"]
+- !private ["Ps23CustomStringConvertible", "NSMutableAttributedString"]
+- !private ["Ps23CustomStringConvertible", "NSRange"]
+- !private ["Ps23CustomStringConvertible", "Scanner"]
+- !private ["Ps23CustomStringConvertible", "String"]
+- !private ["Ps23CustomStringConvertible", "UIImage"]
+- !private ["Ps23CustomStringConvertible", "UnicodeScalar"]
+- !private ["Ps23CustomStringConvertible", "Value"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addAttributes"]
+- !private ["Ps23CustomStringConvertible", "bounds"]
+- ["Ps23CustomStringConvertible", "chs"]
+- ["Ps23CustomStringConvertible", "code"]
+- ["Ps23CustomStringConvertible", "description"]
+- ["Ps23CustomStringConvertible", "directory"]
+- ["Ps23CustomStringConvertible", "emoji"]
+- ["Ps23CustomStringConvertible", "image"]
+- ["Ps23CustomStringConvertible", "imageText"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "lineHeight"]
+- !private ["Ps23CustomStringConvertible", "main"]
+- !private ["Ps23CustomStringConvertible", "path"]
+- ["Ps23CustomStringConvertible", "png"]
+- !private ["Ps23CustomStringConvertible", "scanHexInt32"]
+- ["Ps23CustomStringConvertible", "times"]
+- ["Ps23CustomStringConvertible", "type"]
+- !private ["Ps23CustomStringConvertible", "yy_modelDescription"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Vs10Dictionary", "Key"]
+- !private ["Vs10Dictionary", "Value"]
+- ["Vs10Dictionary", "deinit"]
+- !private ["Sd", "deinit"]
+- !private ["C5Weibo8Emoticon", "Bundle"]
+- !private ["C5Weibo8Emoticon", "CGRect"]
+- !private ["C5Weibo8Emoticon", "Character"]
+- !private ["C5Weibo8Emoticon", "EmoticonTextAttachment"]
+- ["C5Weibo8Emoticon", "Int"]
+- ["C5Weibo8Emoticon", "NSAttributedString"]
+- !private ["C5Weibo8Emoticon", "NSFontAttributeName"]
+- !private ["C5Weibo8Emoticon", "NSMutableAttributedString"]
+- !private ["C5Weibo8Emoticon", "NSRange"]
+- !private ["C5Weibo8Emoticon", "Scanner"]
+- ["C5Weibo8Emoticon", "String"]
+- ["C5Weibo8Emoticon", "UIFont"]
+- ["C5Weibo8Emoticon", "UIImage"]
+- !private ["C5Weibo8Emoticon", "UInt32"]
+- !private ["C5Weibo8Emoticon", "UnicodeScalar"]
+- ["C5Weibo8Emoticon", "chs"]
+- ["C5Weibo8Emoticon", "code"]
+- ["C5Weibo8Emoticon", "deinit"]
+- ["C5Weibo8Emoticon", "description"]
+- ["C5Weibo8Emoticon", "directory"]
+- ["C5Weibo8Emoticon", "emoji"]
+- ["C5Weibo8Emoticon", "image"]
+- ["C5Weibo8Emoticon", "imageText"]
+- ["C5Weibo8Emoticon", "init"]
+- ["C5Weibo8Emoticon", "png"]
+- ["C5Weibo8Emoticon", "times"]
+- ["C5Weibo8Emoticon", "type"]
+- !private ["C5Weibo8Emoticon", "yy_modelDescription"]
+- !private ["C5Weibo22EmoticonTextAttachment", "bounds"]
+- !private ["C5Weibo22EmoticonTextAttachment", "chs"]
+- ["C5Weibo22EmoticonTextAttachment", "deinit"]
+- !private ["C5Weibo22EmoticonTextAttachment", "image"]
+- !private ["C5Weibo22EmoticonTextAttachment", "init"]
+- !private ["Ps9Equatable", "Bundle"]
+- !private ["Ps9Equatable", "CGRect"]
+- !private ["Ps9Equatable", "Character"]
+- !private ["Ps9Equatable", "EmoticonTextAttachment"]
+- !private ["Ps9Equatable", "NSAttributedString"]
+- !private ["Ps9Equatable", "NSFontAttributeName"]
+- !private ["Ps9Equatable", "NSMutableAttributedString"]
+- !private ["Ps9Equatable", "NSRange"]
+- !private ["Ps9Equatable", "Scanner"]
+- !private ["Ps9Equatable", "String"]
+- !private ["Ps9Equatable", "UIImage"]
+- !private ["Ps9Equatable", "UnicodeScalar"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "addAttributes"]
+- !private ["Ps9Equatable", "bounds"]
+- ["Ps9Equatable", "chs"]
+- ["Ps9Equatable", "code"]
+- ["Ps9Equatable", "description"]
+- ["Ps9Equatable", "directory"]
+- ["Ps9Equatable", "emoji"]
+- ["Ps9Equatable", "image"]
+- ["Ps9Equatable", "imageText"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "lineHeight"]
+- !private ["Ps9Equatable", "main"]
+- !private ["Ps9Equatable", "path"]
+- ["Ps9Equatable", "png"]
+- !private ["Ps9Equatable", "scanHexInt32"]
+- ["Ps9Equatable", "times"]
+- ["Ps9Equatable", "type"]
+- !private ["Ps9Equatable", "yy_modelDescription"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Key"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Value"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps23ExpressibleByNilLiteral", "some"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "Bundle"]
+- !private ["Ps8Hashable", "CGRect"]
+- !private ["Ps8Hashable", "Character"]
+- !private ["Ps8Hashable", "EmoticonTextAttachment"]
+- !private ["Ps8Hashable", "NSAttributedString"]
+- !private ["Ps8Hashable", "NSFontAttributeName"]
+- !private ["Ps8Hashable", "NSMutableAttributedString"]
+- !private ["Ps8Hashable", "NSRange"]
+- !private ["Ps8Hashable", "Scanner"]
+- !private ["Ps8Hashable", "String"]
+- !private ["Ps8Hashable", "UIImage"]
+- !private ["Ps8Hashable", "UnicodeScalar"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "addAttributes"]
+- !private ["Ps8Hashable", "bounds"]
+- ["Ps8Hashable", "chs"]
+- ["Ps8Hashable", "code"]
+- ["Ps8Hashable", "description"]
+- ["Ps8Hashable", "directory"]
+- ["Ps8Hashable", "emoji"]
+- ["Ps8Hashable", "image"]
+- ["Ps8Hashable", "imageText"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "lineHeight"]
+- !private ["Ps8Hashable", "main"]
+- !private ["Ps8Hashable", "path"]
+- ["Ps8Hashable", "png"]
+- !private ["Ps8Hashable", "scanHexInt32"]
+- ["Ps8Hashable", "times"]
+- ["Ps8Hashable", "type"]
+- !private ["Ps8Hashable", "yy_modelDescription"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Key"]
+- !private ["Ps9Indexable", "Value"]
+- !private ["Ps13IndexableBase", "Key"]
+- !private ["Ps13IndexableBase", "Value"]
+- ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["CSo18NSAttributedString", "addAttributes"]
+- ["CSo18NSAttributedString", "deinit"]
+- !private ["CSo18NSAttributedString", "init"]
+- !private ["PSo8NSCoding", "addAttributes"]
+- !private ["PSo8NSCoding", "bounds"]
+- !private ["PSo8NSCoding", "chs"]
+- !private ["PSo8NSCoding", "image"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "addAttributes"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "lineHeight"]
+- !private ["PSo9NSCopying", "scanHexInt32"]
+- !private ["CSo25NSMutableAttributedString", "addAttributes"]
+- ["CSo25NSMutableAttributedString", "deinit"]
+- !private ["CSo25NSMutableAttributedString", "init"]
+- !private ["PSo16NSMutableCopying", "addAttributes"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "Bundle"]
+- !private ["CSo8NSObject", "CGRect"]
+- !private ["CSo8NSObject", "Character"]
+- !private ["CSo8NSObject", "EmoticonTextAttachment"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "NSAttributedString"]
+- !private ["CSo8NSObject", "NSFontAttributeName"]
+- !private ["CSo8NSObject", "NSMutableAttributedString"]
+- !private ["CSo8NSObject", "NSRange"]
+- !private ["CSo8NSObject", "Scanner"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIFont"]
+- ["CSo8NSObject", "UIImage"]
+- !private ["CSo8NSObject", "UInt32"]
+- !private ["CSo8NSObject", "UnicodeScalar"]
+- !private ["CSo8NSObject", "addAttributes"]
+- !private ["CSo8NSObject", "bounds"]
+- ["CSo8NSObject", "chs"]
+- ["CSo8NSObject", "code"]
+- ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "description"]
+- ["CSo8NSObject", "directory"]
+- ["CSo8NSObject", "emoji"]
+- ["CSo8NSObject", "image"]
+- ["CSo8NSObject", "imageText"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "lineHeight"]
+- !private ["CSo8NSObject", "main"]
+- !private ["CSo8NSObject", "path"]
+- ["CSo8NSObject", "png"]
+- !private ["CSo8NSObject", "scanHexInt32"]
+- ["CSo8NSObject", "times"]
+- ["CSo8NSObject", "type"]
+- !private ["CSo8NSObject", "yy_modelDescription"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "Bundle"]
+- !private ["PSo16NSObjectProtocol", "CGRect"]
+- !private ["PSo16NSObjectProtocol", "Character"]
+- !private ["PSo16NSObjectProtocol", "EmoticonTextAttachment"]
+- !private ["PSo16NSObjectProtocol", "NSAttributedString"]
+- !private ["PSo16NSObjectProtocol", "NSFontAttributeName"]
+- !private ["PSo16NSObjectProtocol", "NSMutableAttributedString"]
+- !private ["PSo16NSObjectProtocol", "NSRange"]
+- !private ["PSo16NSObjectProtocol", "Scanner"]
+- !private ["PSo16NSObjectProtocol", "String"]
+- !private ["PSo16NSObjectProtocol", "UIImage"]
+- !private ["PSo16NSObjectProtocol", "UnicodeScalar"]
+- !private ["PSo16NSObjectProtocol", "addAttributes"]
+- !private ["PSo16NSObjectProtocol", "bounds"]
+- ["PSo16NSObjectProtocol", "chs"]
+- ["PSo16NSObjectProtocol", "code"]
+- ["PSo16NSObjectProtocol", "description"]
+- ["PSo16NSObjectProtocol", "directory"]
+- ["PSo16NSObjectProtocol", "emoji"]
+- ["PSo16NSObjectProtocol", "image"]
+- ["PSo16NSObjectProtocol", "imageText"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "lineHeight"]
+- !private ["PSo16NSObjectProtocol", "main"]
+- !private ["PSo16NSObjectProtocol", "path"]
+- ["PSo16NSObjectProtocol", "png"]
+- !private ["PSo16NSObjectProtocol", "scanHexInt32"]
+- ["PSo16NSObjectProtocol", "times"]
+- ["PSo16NSObjectProtocol", "type"]
+- !private ["PSo16NSObjectProtocol", "yy_modelDescription"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "addAttributes"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo16NSTextAttachment", "bounds"]
+- !private ["CSo16NSTextAttachment", "chs"]
+- !private ["CSo16NSTextAttachment", "image"]
+- !private ["CSo16NSTextAttachment", "init"]
+- !private ["PSo25NSTextAttachmentContainer", "bounds"]
+- !private ["PSo25NSTextAttachmentContainer", "chs"]
+- !private ["PSo25NSTextAttachmentContainer", "image"]
+- !private ["PSo25NSTextAttachmentContainer", "init"]
+- ["Sq", "deinit"]
+- ["Sq", "some"]
+- ["CSo7Scanner", "deinit"]
+- !private ["CSo7Scanner", "init"]
+- !private ["CSo7Scanner", "scanHexInt32"]
+- !private ["Ps8Sequence", "Key"]
+- !private ["Ps8Sequence", "Value"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- ["CSo6UIFont", "deinit"]
+- !private ["CSo6UIFont", "lineHeight"]
+- ["CSo7UIImage", "deinit"]
+- !private ["CSo7UIImage", "init"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- ["Sc", "deinit"]
+- !private ["Sc", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps26_ExpressibleByImageLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "Bundle"]
+- !private ["Ps9_Hashable", "CGRect"]
+- !private ["Ps9_Hashable", "Character"]
+- !private ["Ps9_Hashable", "EmoticonTextAttachment"]
+- !private ["Ps9_Hashable", "NSAttributedString"]
+- !private ["Ps9_Hashable", "NSFontAttributeName"]
+- !private ["Ps9_Hashable", "NSMutableAttributedString"]
+- !private ["Ps9_Hashable", "NSRange"]
+- !private ["Ps9_Hashable", "Scanner"]
+- !private ["Ps9_Hashable", "String"]
+- !private ["Ps9_Hashable", "UIImage"]
+- !private ["Ps9_Hashable", "UnicodeScalar"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "addAttributes"]
+- !private ["Ps9_Hashable", "bounds"]
+- ["Ps9_Hashable", "chs"]
+- ["Ps9_Hashable", "code"]
+- ["Ps9_Hashable", "description"]
+- ["Ps9_Hashable", "directory"]
+- ["Ps9_Hashable", "emoji"]
+- ["Ps9_Hashable", "image"]
+- ["Ps9_Hashable", "imageText"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "lineHeight"]
+- !private ["Ps9_Hashable", "main"]
+- !private ["Ps9_Hashable", "path"]
+- ["Ps9_Hashable", "png"]
+- !private ["Ps9_Hashable", "scanHexInt32"]
+- ["Ps9_Hashable", "times"]
+- ["Ps9_Hashable", "type"]
+- !private ["Ps9_Hashable", "yy_modelDescription"]
+- ["Ps9_Hashable", ""]
+- ["VSC8_NSRange", "deinit"]
+- !private ["VSC8_NSRange", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "Key"]
+- !private ["Ps21_ObjectiveCBridgeable", "Value"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sb"
+- "CSo6Bundle"
+- "V12CoreGraphics7CGFloat"
+- "VSC6CGRect"
+- "Ps7CVarArg"
+- "Vs9Character"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- !private "Sd"
+- "C5Weibo8Emoticon"
+- "C5Weibo22EmoticonTextAttachment"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps23ExpressibleByNilLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "CSo18NSAttributedString"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "CSo25NSMutableAttributedString"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "CSo16NSTextAttachment"
+- !private "PSo25NSTextAttachmentContainer"
+- "Sq"
+- "CSo7Scanner"
+- !private "Ps8Sequence"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- "CSo6UIFont"
+- "CSo7UIImage"
+- !private "Su"
+- !private "Vs6UInt16"
+- "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- "Sc"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps26_ExpressibleByImageLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "VSC8_NSRange"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Weibo-Bridge.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/CZAdditions.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/UILabel+CZAddition.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/UIButton+CZAddition.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/UIColor+CZAddition.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/UIView+CZAddition.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/UIScreen+CZAddition.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/UIViewController+CZAddition.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/NSObject+CZRuntime.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/NSAttributedString+CZAdditon.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/NSString+CZHash.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/NSString+CZBase64.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/NSString+CZPath.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/PhotoBrowser/HMPhotoBrowserController.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/SDWebImageDecoder.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Modules/module.modulemap"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SVProgressHUD.framework/Headers/SVIndefiniteAnimatedView.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SVProgressHUD.framework/Headers/SVProgressHUD-umbrella.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SVProgressHUD.framework/Modules/module.modulemap"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POPLayerExtras.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POPDecayAnimation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POPCustomAnimation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POPBasicAnimation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POPAnimator.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POPPropertyAnimation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POPSpringAnimation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POPAnimationExtras.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POPGeometry.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POPAnimationEvent.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POPAnimationTracer.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POPAnimation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POPAnimatableProperty.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POPDefines.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POP.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/pop-umbrella.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Modules/module.modulemap"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/UIProgressView+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/UIWebView+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/UIRefreshControl+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/UIKit+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/UIImageView+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/UIImage+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/UIButton+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/UIActivityIndicatorView+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/AFNetworkActivityIndicatorManager.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/AFImageDownloader.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/AFAutoPurgingImageCache.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/AFHTTPSessionManager.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/AFURLSessionManager.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/AFNetworkReachabilityManager.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/AFSecurityPolicy.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/AFURLResponseSerialization.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/AFURLRequestSerialization.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/AFNetworking-umbrella.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Modules/module.modulemap"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/YYModel.framework/Headers/YYModel.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/YYModel.framework/Headers/YYClassInfo.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/YYModel.framework/Headers/NSObject+YYModel.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/YYModel.framework/Headers/YYModel-umbrella.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/YYModel.framework/Modules/module.modulemap"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/FMDB.framework/Headers/FMDB.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/FMDB.framework/Headers/FMDatabaseQueue.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/FMDB.framework/Headers/FMDatabaseAdditions.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/FMDB.framework/Headers/FMDatabasePool.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/FMDB.framework/Headers/FMResultSet.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/FMDB.framework/Headers/FMDatabase.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/FMDB.framework/Headers/FMDB-umbrella.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/FMDB.framework/Modules/module.modulemap"
+interface-hash: "544443d5056f01a9f4426aefc7a74bc9"

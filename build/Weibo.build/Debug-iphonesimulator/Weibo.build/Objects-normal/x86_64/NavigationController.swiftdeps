@@ -1,0 +1,717 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NavigationController"
+provides-nominal:
+- "C5Weibo20NavigationController"
+provides-member:
+- ["C5Weibo20NavigationController", ""]
+provides-dynamic-lookup:
+- "viewDidLoad"
+- "pushViewController"
+- "popToParent"
+depends-top-level:
+- !private "print"
+- !private "BooleanLiteralType"
+- "Bool"
+- !private "StringLiteralType"
+- !private ">"
+- "NavigationController"
+- "CastingPrecedence"
+- !private "=="
+- "AssignmentPrecedence"
+- !private "UIBarButtonItem"
+- "UIViewController"
+- "UINavigationController"
+- !private "??"
+- !private "BaseViewController"
+depends-member:
+- !private ["Ps9AnyObject", "UIBarButtonItem"]
+- !private ["Ps9AnyObject", "childViewControllers"]
+- !private ["Ps9AnyObject", "hidesBottomBarWhenPushed"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isHidden"]
+- !private ["Ps9AnyObject", "leftBarButtonItem"]
+- !private ["Ps9AnyObject", "navItem"]
+- !private ["Ps9AnyObject", "navigationBar"]
+- ["Ps9AnyObject", "popToParent"]
+- !private ["Ps9AnyObject", "popViewController"]
+- !private ["Ps9AnyObject", "print"]
+- ["Ps9AnyObject", "pushViewController"]
+- !private ["Ps9AnyObject", "title"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "IndexDistance"]
+- !private ["Sa", "Iterator"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "count"]
+- ["Sa", "deinit"]
+- !private ["Sa", "first"]
+- ["C5Weibo18BaseViewController", "deinit"]
+- !private ["C5Weibo18BaseViewController", "navItem"]
+- !private ["Ps23BidirectionalCollection", "IndexDistance"]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps23BidirectionalCollection", "first"]
+- !private ["Ps22BidirectionalIndexable", "IndexDistance"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "count"]
+- !private ["Ps22BidirectionalIndexable", "first"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["PSo15CALayerDelegate", "isHidden"]
+- !private ["Ps7CVarArg", "IndexDistance"]
+- !private ["Ps7CVarArg", "Iterator"]
+- !private ["Ps7CVarArg", "UIBarButtonItem"]
+- !private ["Ps7CVarArg", "_Element"]
+- !private ["Ps7CVarArg", "childViewControllers"]
+- !private ["Ps7CVarArg", "count"]
+- !private ["Ps7CVarArg", "first"]
+- !private ["Ps7CVarArg", "hidesBottomBarWhenPushed"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isHidden"]
+- !private ["Ps7CVarArg", "leftBarButtonItem"]
+- !private ["Ps7CVarArg", "navItem"]
+- !private ["Ps7CVarArg", "navigationBar"]
+- ["Ps7CVarArg", "popToParent"]
+- !private ["Ps7CVarArg", "popViewController"]
+- !private ["Ps7CVarArg", "print"]
+- ["Ps7CVarArg", "pushViewController"]
+- !private ["Ps7CVarArg", "title"]
+- ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", ""]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Collection", "IndexDistance"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "first"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "IndexDistance"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "UIBarButtonItem"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "childViewControllers"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "first"]
+- !private ["Ps28CustomDebugStringConvertible", "hidesBottomBarWhenPushed"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isHidden"]
+- !private ["Ps28CustomDebugStringConvertible", "leftBarButtonItem"]
+- !private ["Ps28CustomDebugStringConvertible", "navItem"]
+- !private ["Ps28CustomDebugStringConvertible", "navigationBar"]
+- ["Ps28CustomDebugStringConvertible", "popToParent"]
+- !private ["Ps28CustomDebugStringConvertible", "popViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- ["Ps28CustomDebugStringConvertible", "pushViewController"]
+- ["Ps28CustomDebugStringConvertible", "some"]
+- !private ["Ps28CustomDebugStringConvertible", "title"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "IndexDistance"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "first"]
+- !private ["Ps17CustomReflectable", "init"]
+- ["Ps17CustomReflectable", "some"]
+- !private ["Ps23CustomStringConvertible", "IndexDistance"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "UIBarButtonItem"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "childViewControllers"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "first"]
+- !private ["Ps23CustomStringConvertible", "hidesBottomBarWhenPushed"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isHidden"]
+- !private ["Ps23CustomStringConvertible", "leftBarButtonItem"]
+- !private ["Ps23CustomStringConvertible", "navItem"]
+- !private ["Ps23CustomStringConvertible", "navigationBar"]
+- ["Ps23CustomStringConvertible", "popToParent"]
+- !private ["Ps23CustomStringConvertible", "popViewController"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- ["Ps23CustomStringConvertible", "pushViewController"]
+- !private ["Ps23CustomStringConvertible", "title"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "UIBarButtonItem"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "childViewControllers"]
+- !private ["Ps9Equatable", "hidesBottomBarWhenPushed"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isHidden"]
+- !private ["Ps9Equatable", "leftBarButtonItem"]
+- !private ["Ps9Equatable", "navItem"]
+- !private ["Ps9Equatable", "navigationBar"]
+- ["Ps9Equatable", "popToParent"]
+- !private ["Ps9Equatable", "popViewController"]
+- !private ["Ps9Equatable", "print"]
+- ["Ps9Equatable", "pushViewController"]
+- !private ["Ps9Equatable", "title"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "IndexDistance"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- !private ["Ps25ExpressibleByArrayLiteral", "first"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps23ExpressibleByNilLiteral", "some"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "UIBarButtonItem"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "childViewControllers"]
+- !private ["Ps8Hashable", "hidesBottomBarWhenPushed"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isHidden"]
+- !private ["Ps8Hashable", "leftBarButtonItem"]
+- !private ["Ps8Hashable", "navItem"]
+- !private ["Ps8Hashable", "navigationBar"]
+- ["Ps8Hashable", "popToParent"]
+- !private ["Ps8Hashable", "popViewController"]
+- !private ["Ps8Hashable", "print"]
+- ["Ps8Hashable", "pushViewController"]
+- !private ["Ps8Hashable", "title"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "IndexDistance"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "count"]
+- !private ["Ps9Indexable", "first"]
+- !private ["Ps13IndexableBase", "IndexDistance"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "count"]
+- !private ["Ps13IndexableBase", "first"]
+- !private ["Vs16IndexingIterator", "Element"]
+- ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "IndexDistance"]
+- !private ["Ps17MutableCollection", "Iterator"]
+- !private ["Ps17MutableCollection", "_Element"]
+- !private ["Ps17MutableCollection", "count"]
+- !private ["Ps17MutableCollection", "first"]
+- !private ["Ps16MutableIndexable", "IndexDistance"]
+- !private ["Ps16MutableIndexable", "Iterator"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "count"]
+- !private ["Ps16MutableIndexable", "first"]
+- ["CSo7NSCoder", "deinit"]
+- !private ["PSo8NSCoding", "UIBarButtonItem"]
+- !private ["PSo8NSCoding", "childViewControllers"]
+- !private ["PSo8NSCoding", "hidesBottomBarWhenPushed"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isHidden"]
+- !private ["PSo8NSCoding", "leftBarButtonItem"]
+- !private ["PSo8NSCoding", "navItem"]
+- !private ["PSo8NSCoding", "navigationBar"]
+- ["PSo8NSCoding", "popToParent"]
+- !private ["PSo8NSCoding", "popViewController"]
+- !private ["PSo8NSCoding", "print"]
+- ["PSo8NSCoding", "pushViewController"]
+- !private ["PSo8NSCoding", "title"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "UIBarButtonItem"]
+- !private ["PSo26NSExtensionRequestHandling", "childViewControllers"]
+- !private ["PSo26NSExtensionRequestHandling", "hidesBottomBarWhenPushed"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "navItem"]
+- !private ["PSo26NSExtensionRequestHandling", "navigationBar"]
+- ["PSo26NSExtensionRequestHandling", "popToParent"]
+- !private ["PSo26NSExtensionRequestHandling", "popViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- ["PSo26NSExtensionRequestHandling", "pushViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "title"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "BaseViewController"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "UIBarButtonItem"]
+- ["CSo8NSObject", "UIViewController"]
+- !private ["CSo8NSObject", "childViewControllers"]
+- !private ["CSo8NSObject", "hidesBottomBarWhenPushed"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isHidden"]
+- !private ["CSo8NSObject", "leftBarButtonItem"]
+- !private ["CSo8NSObject", "navItem"]
+- !private ["CSo8NSObject", "navigationBar"]
+- ["CSo8NSObject", "popToParent"]
+- !private ["CSo8NSObject", "popViewController"]
+- !private ["CSo8NSObject", "print"]
+- ["CSo8NSObject", "pushViewController"]
+- !private ["CSo8NSObject", "title"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "UIBarButtonItem"]
+- !private ["PSo16NSObjectProtocol", "childViewControllers"]
+- !private ["PSo16NSObjectProtocol", "hidesBottomBarWhenPushed"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isHidden"]
+- !private ["PSo16NSObjectProtocol", "leftBarButtonItem"]
+- !private ["PSo16NSObjectProtocol", "navItem"]
+- !private ["PSo16NSObjectProtocol", "navigationBar"]
+- ["PSo16NSObjectProtocol", "popToParent"]
+- !private ["PSo16NSObjectProtocol", "popViewController"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- ["PSo16NSObjectProtocol", "pushViewController"]
+- !private ["PSo16NSObjectProtocol", "title"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["C5Weibo20NavigationController", "BaseViewController"]
+- ["C5Weibo20NavigationController", "Bool"]
+- !private ["C5Weibo20NavigationController", "UIBarButtonItem"]
+- ["C5Weibo20NavigationController", "UIViewController"]
+- !private ["C5Weibo20NavigationController", "childViewControllers"]
+- ["C5Weibo20NavigationController", "deinit"]
+- ["C5Weibo20NavigationController", "init"]
+- !private ["C5Weibo20NavigationController", "navigationBar"]
+- ["C5Weibo20NavigationController", "popToParent"]
+- !private ["C5Weibo20NavigationController", "popViewController"]
+- !private ["C5Weibo20NavigationController", "print"]
+- ["C5Weibo20NavigationController", "pushViewController"]
+- ["C5Weibo20NavigationController", "viewDidLoad"]
+- ["Sq", "deinit"]
+- ["Sq", "some"]
+- !private ["Ps22RandomAccessCollection", "IndexDistance"]
+- !private ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps22RandomAccessCollection", "first"]
+- !private ["Ps21RandomAccessIndexable", "IndexDistance"]
+- !private ["Ps21RandomAccessIndexable", "Iterator"]
+- !private ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "count"]
+- !private ["Ps21RandomAccessIndexable", "first"]
+- !private ["Ps26RangeReplaceableCollection", "IndexDistance"]
+- !private ["Ps26RangeReplaceableCollection", "Iterator"]
+- !private ["Ps26RangeReplaceableCollection", "_Element"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps26RangeReplaceableCollection", "first"]
+- !private ["Ps25RangeReplaceableIndexable", "IndexDistance"]
+- !private ["Ps25RangeReplaceableIndexable", "Iterator"]
+- !private ["Ps25RangeReplaceableIndexable", "_Element"]
+- !private ["Ps25RangeReplaceableIndexable", "count"]
+- !private ["Ps25RangeReplaceableIndexable", "first"]
+- ["V10ObjectiveC8Selector", "deinit"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "IndexDistance"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "first"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "isHidden"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "isHidden"]
+- !private ["PSo21UIAppearanceContainer", "UIBarButtonItem"]
+- !private ["PSo21UIAppearanceContainer", "childViewControllers"]
+- !private ["PSo21UIAppearanceContainer", "hidesBottomBarWhenPushed"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "isHidden"]
+- !private ["PSo21UIAppearanceContainer", "navItem"]
+- !private ["PSo21UIAppearanceContainer", "navigationBar"]
+- ["PSo21UIAppearanceContainer", "popToParent"]
+- !private ["PSo21UIAppearanceContainer", "popViewController"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- ["PSo21UIAppearanceContainer", "pushViewController"]
+- !private ["PSo21UIAppearanceContainer", "title"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["CSo15UIBarButtonItem", "deinit"]
+- !private ["CSo15UIBarButtonItem", "init"]
+- !private ["CSo9UIBarItem", "init"]
+- !private ["PSo16UIBarPositioning", "isHidden"]
+- !private ["PSo18UIContentContainer", "UIBarButtonItem"]
+- !private ["PSo18UIContentContainer", "childViewControllers"]
+- !private ["PSo18UIContentContainer", "hidesBottomBarWhenPushed"]
+- !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "navItem"]
+- !private ["PSo18UIContentContainer", "navigationBar"]
+- ["PSo18UIContentContainer", "popToParent"]
+- !private ["PSo18UIContentContainer", "popViewController"]
+- !private ["PSo18UIContentContainer", "print"]
+- ["PSo18UIContentContainer", "pushViewController"]
+- !private ["PSo18UIContentContainer", "title"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "isHidden"]
+- !private ["PSo13UIDynamicItem", "isHidden"]
+- !private ["PSo18UIFocusEnvironment", "UIBarButtonItem"]
+- !private ["PSo18UIFocusEnvironment", "childViewControllers"]
+- !private ["PSo18UIFocusEnvironment", "hidesBottomBarWhenPushed"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "isHidden"]
+- !private ["PSo18UIFocusEnvironment", "navItem"]
+- !private ["PSo18UIFocusEnvironment", "navigationBar"]
+- ["PSo18UIFocusEnvironment", "popToParent"]
+- !private ["PSo18UIFocusEnvironment", "popViewController"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- ["PSo18UIFocusEnvironment", "pushViewController"]
+- !private ["PSo18UIFocusEnvironment", "title"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "isHidden"]
+- ["CSo15UINavigationBar", "deinit"]
+- !private ["CSo15UINavigationBar", "isHidden"]
+- !private ["CSo22UINavigationController", "BaseViewController"]
+- ["CSo22UINavigationController", "Bool"]
+- !private ["CSo22UINavigationController", "UIBarButtonItem"]
+- ["CSo22UINavigationController", "UIViewController"]
+- !private ["CSo22UINavigationController", "childViewControllers"]
+- ["CSo22UINavigationController", "deinit"]
+- ["CSo22UINavigationController", "init"]
+- !private ["CSo22UINavigationController", "navigationBar"]
+- ["CSo22UINavigationController", "popToParent"]
+- !private ["CSo22UINavigationController", "popViewController"]
+- !private ["CSo22UINavigationController", "print"]
+- ["CSo22UINavigationController", "pushViewController"]
+- ["CSo22UINavigationController", "viewDidLoad"]
+- ["CSo22UINavigationController", ""]
+- !private ["CSo16UINavigationItem", "leftBarButtonItem"]
+- !private ["CSo11UIResponder", "BaseViewController"]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "UIBarButtonItem"]
+- ["CSo11UIResponder", "UIViewController"]
+- !private ["CSo11UIResponder", "childViewControllers"]
+- !private ["CSo11UIResponder", "hidesBottomBarWhenPushed"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "isHidden"]
+- !private ["CSo11UIResponder", "navItem"]
+- !private ["CSo11UIResponder", "navigationBar"]
+- ["CSo11UIResponder", "popToParent"]
+- !private ["CSo11UIResponder", "popViewController"]
+- !private ["CSo11UIResponder", "print"]
+- ["CSo11UIResponder", "pushViewController"]
+- !private ["CSo11UIResponder", "title"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo30UIResponderStandardEditActions", "UIBarButtonItem"]
+- !private ["PSo30UIResponderStandardEditActions", "childViewControllers"]
+- !private ["PSo30UIResponderStandardEditActions", "hidesBottomBarWhenPushed"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "isHidden"]
+- !private ["PSo30UIResponderStandardEditActions", "navItem"]
+- !private ["PSo30UIResponderStandardEditActions", "navigationBar"]
+- ["PSo30UIResponderStandardEditActions", "popToParent"]
+- !private ["PSo30UIResponderStandardEditActions", "popViewController"]
+- !private ["PSo30UIResponderStandardEditActions", "print"]
+- ["PSo30UIResponderStandardEditActions", "pushViewController"]
+- !private ["PSo30UIResponderStandardEditActions", "title"]
+- ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo20UIScrollViewDelegate", "navItem"]
+- !private ["PSo16UIStateRestoring", "UIBarButtonItem"]
+- !private ["PSo16UIStateRestoring", "childViewControllers"]
+- !private ["PSo16UIStateRestoring", "hidesBottomBarWhenPushed"]
+- !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "navItem"]
+- !private ["PSo16UIStateRestoring", "navigationBar"]
+- ["PSo16UIStateRestoring", "popToParent"]
+- !private ["PSo16UIStateRestoring", "popViewController"]
+- !private ["PSo16UIStateRestoring", "print"]
+- ["PSo16UIStateRestoring", "pushViewController"]
+- !private ["PSo16UIStateRestoring", "title"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo21UITableViewDataSource", "navItem"]
+- !private ["PSo19UITableViewDelegate", "navItem"]
+- !private ["PSo18UITraitEnvironment", "UIBarButtonItem"]
+- !private ["PSo18UITraitEnvironment", "childViewControllers"]
+- !private ["PSo18UITraitEnvironment", "hidesBottomBarWhenPushed"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "isHidden"]
+- !private ["PSo18UITraitEnvironment", "navItem"]
+- !private ["PSo18UITraitEnvironment", "navigationBar"]
+- ["PSo18UITraitEnvironment", "popToParent"]
+- !private ["PSo18UITraitEnvironment", "popViewController"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- ["PSo18UITraitEnvironment", "pushViewController"]
+- !private ["PSo18UITraitEnvironment", "title"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "isHidden"]
+- !private ["CSo16UIViewController", "BaseViewController"]
+- ["CSo16UIViewController", "Bool"]
+- !private ["CSo16UIViewController", "UIBarButtonItem"]
+- ["CSo16UIViewController", "UIViewController"]
+- !private ["CSo16UIViewController", "childViewControllers"]
+- ["CSo16UIViewController", "deinit"]
+- !private ["CSo16UIViewController", "hidesBottomBarWhenPushed"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "navItem"]
+- !private ["CSo16UIViewController", "navigationBar"]
+- ["CSo16UIViewController", "popToParent"]
+- !private ["CSo16UIViewController", "popViewController"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "pushViewController"]
+- !private ["CSo16UIViewController", "title"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps14_ArrayProtocol", "IndexDistance"]
+- !private ["Ps14_ArrayProtocol", "Iterator"]
+- !private ["Ps14_ArrayProtocol", "_Element"]
+- !private ["Ps14_ArrayProtocol", "count"]
+- !private ["Ps14_ArrayProtocol", "first"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "isHidden"]
+- !private ["Ps24_DestructorSafeContainer", "IndexDistance"]
+- !private ["Ps24_DestructorSafeContainer", "Iterator"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps24_DestructorSafeContainer", "first"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "UIBarButtonItem"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "childViewControllers"]
+- !private ["Ps9_Hashable", "hidesBottomBarWhenPushed"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isHidden"]
+- !private ["Ps9_Hashable", "leftBarButtonItem"]
+- !private ["Ps9_Hashable", "navItem"]
+- !private ["Ps9_Hashable", "navigationBar"]
+- ["Ps9_Hashable", "popToParent"]
+- !private ["Ps9_Hashable", "popViewController"]
+- !private ["Ps9_Hashable", "print"]
+- ["Ps9_Hashable", "pushViewController"]
+- !private ["Ps9_Hashable", "title"]
+- ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "IndexDistance"]
+- !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- !private ["Ps21_ObjectiveCBridgeable", "first"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sa"
+- "C5Weibo18BaseViewController"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- "Sb"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- !private "Vs9Character"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps23ExpressibleByNilLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps16IteratorProtocol"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "C5Weibo20NavigationController"
+- "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- "V10ObjectiveC8Selector"
+- !private "Ps8Sequence"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "CSo15UIBarButtonItem"
+- !private "CSo9UIBarItem"
+- !private "PSo16UIBarPositioning"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- "CSo15UINavigationBar"
+- "CSo22UINavigationController"
+- !private "CSo16UINavigationItem"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- !private "PSo20UIScrollViewDelegate"
+- "PSo16UIStateRestoring"
+- !private "PSo21UITableViewDataSource"
+- !private "PSo19UITableViewDelegate"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Weibo-Bridge.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/CZAdditions.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/UILabel+CZAddition.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/UIButton+CZAddition.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/UIColor+CZAddition.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/UIView+CZAddition.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/UIScreen+CZAddition.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/UIViewController+CZAddition.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/NSObject+CZRuntime.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/NSAttributedString+CZAdditon.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/NSString+CZHash.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/NSString+CZBase64.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/NSString+CZPath.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/PhotoBrowser/HMPhotoBrowserController.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/SDWebImageDecoder.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Modules/module.modulemap"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SVProgressHUD.framework/Headers/SVIndefiniteAnimatedView.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SVProgressHUD.framework/Headers/SVProgressHUD-umbrella.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SVProgressHUD.framework/Modules/module.modulemap"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POPLayerExtras.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POPDecayAnimation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POPCustomAnimation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POPBasicAnimation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POPAnimator.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POPPropertyAnimation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POPSpringAnimation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POPAnimationExtras.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POPGeometry.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POPAnimationEvent.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POPAnimationTracer.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POPAnimation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POPAnimatableProperty.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POPDefines.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POP.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/pop-umbrella.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Modules/module.modulemap"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/UIProgressView+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/UIWebView+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/UIRefreshControl+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/UIKit+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/UIImageView+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/UIImage+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/UIButton+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/UIActivityIndicatorView+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/AFNetworkActivityIndicatorManager.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/AFImageDownloader.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/AFAutoPurgingImageCache.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/AFHTTPSessionManager.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/AFURLSessionManager.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/AFNetworkReachabilityManager.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/AFSecurityPolicy.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/AFURLResponseSerialization.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/AFURLRequestSerialization.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/AFNetworking-umbrella.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Modules/module.modulemap"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/YYModel.framework/Headers/YYModel.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/YYModel.framework/Headers/YYClassInfo.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/YYModel.framework/Headers/NSObject+YYModel.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/YYModel.framework/Headers/YYModel-umbrella.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/YYModel.framework/Modules/module.modulemap"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/FMDB.framework/Headers/FMDB.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/FMDB.framework/Headers/FMDatabaseQueue.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/FMDB.framework/Headers/FMDatabaseAdditions.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/FMDB.framework/Headers/FMDatabasePool.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/FMDB.framework/Headers/FMResultSet.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/FMDB.framework/Headers/FMDatabase.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/FMDB.framework/Headers/FMDB-umbrella.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/FMDB.framework/Modules/module.modulemap"
+interface-hash: "764ebd7db3ee2479cec6fbd3e33c3af6"

@@ -1,0 +1,353 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo11UIImageView", ""]
+- ["CSo11UIImageView", "cz_setImage"]
+provides-dynamic-lookup:
+- "cz_setImage"
+depends-top-level:
+- "UIImage"
+- "Bool"
+- "UIImageView"
+- "AssignmentPrecedence"
+- !private "URL"
+- "String"
+- "BooleanLiteralType"
+- !private "Array"
+depends-member:
+- !private ["Ps9AnyObject", "URL"]
+- !private ["Ps9AnyObject", "bounds"]
+- !private ["Ps9AnyObject", "cz_avatarImage"]
+- ["Ps9AnyObject", "cz_setImage"]
+- !private ["Ps9AnyObject", "image"]
+- !private ["Ps9AnyObject", "sd_setImage"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["PSo15CALayerDelegate", "URL"]
+- !private ["PSo15CALayerDelegate", "bounds"]
+- ["PSo15CALayerDelegate", "cz_setImage"]
+- !private ["PSo15CALayerDelegate", "image"]
+- !private ["PSo15CALayerDelegate", "sd_setImage"]
+- !private ["VSC6CGRect", "size"]
+- !private ["Ps7CVarArg", "URL"]
+- !private ["Ps7CVarArg", "bounds"]
+- !private ["Ps7CVarArg", "cz_avatarImage"]
+- ["Ps7CVarArg", "cz_setImage"]
+- !private ["Ps7CVarArg", "image"]
+- !private ["Ps7CVarArg", "sd_setImage"]
+- !private ["Ps28CustomDebugStringConvertible", "URL"]
+- !private ["Ps28CustomDebugStringConvertible", "bounds"]
+- !private ["Ps28CustomDebugStringConvertible", "cz_avatarImage"]
+- ["Ps28CustomDebugStringConvertible", "cz_setImage"]
+- !private ["Ps28CustomDebugStringConvertible", "image"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "sd_setImage"]
+- !private ["Ps28CustomDebugStringConvertible", "size"]
+- ["Ps28CustomDebugStringConvertible", "some"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "size"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "size"]
+- ["Ps17CustomReflectable", "some"]
+- !private ["Ps23CustomStringConvertible", "URL"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "bounds"]
+- !private ["Ps23CustomStringConvertible", "cz_avatarImage"]
+- ["Ps23CustomStringConvertible", "cz_setImage"]
+- !private ["Ps23CustomStringConvertible", "image"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "sd_setImage"]
+- !private ["Ps9Equatable", "Element"]
+- !private ["Ps9Equatable", "URL"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "bounds"]
+- !private ["Ps9Equatable", "cz_avatarImage"]
+- ["Ps9Equatable", "cz_setImage"]
+- !private ["Ps9Equatable", "image"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "sd_setImage"]
+- !private ["Ps9Equatable", "size"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Element"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps23ExpressibleByNilLiteral", "some"]
+- !private ["Ps8Hashable", "URL"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "bounds"]
+- !private ["Ps8Hashable", "cz_avatarImage"]
+- ["Ps8Hashable", "cz_setImage"]
+- !private ["Ps8Hashable", "image"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "sd_setImage"]
+- ["SQ", "deinit"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSo8NSCoding", "URL"]
+- !private ["PSo8NSCoding", "bounds"]
+- !private ["PSo8NSCoding", "cz_avatarImage"]
+- ["PSo8NSCoding", "cz_setImage"]
+- !private ["PSo8NSCoding", "image"]
+- !private ["PSo8NSCoding", "sd_setImage"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIImage"]
+- !private ["CSo8NSObject", "URL"]
+- !private ["CSo8NSObject", "bounds"]
+- !private ["CSo8NSObject", "cz_avatarImage"]
+- ["CSo8NSObject", "cz_setImage"]
+- !private ["CSo8NSObject", "image"]
+- !private ["CSo8NSObject", "sd_setImage"]
+- !private ["PSo16NSObjectProtocol", "URL"]
+- !private ["PSo16NSObjectProtocol", "bounds"]
+- !private ["PSo16NSObjectProtocol", "cz_avatarImage"]
+- ["PSo16NSObjectProtocol", "cz_setImage"]
+- !private ["PSo16NSObjectProtocol", "image"]
+- !private ["PSo16NSObjectProtocol", "sd_setImage"]
+- !private ["PSo14NSSecureCoding", "cz_avatarImage"]
+- !private ["Ps9OptionSet", "Element"]
+- ["Sq", "deinit"]
+- ["Sq", "some"]
+- !private ["Ps16RawRepresentable", "Element"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["VSC17SDWebImageOptions", "Element"]
+- ["VSC17SDWebImageOptions", "deinit"]
+- !private ["Ps10SetAlgebra", "Element"]
+- ["SS", "deinit"]
+- !private ["PSo29UIAccessibilityIdentification", "URL"]
+- !private ["PSo29UIAccessibilityIdentification", "bounds"]
+- !private ["PSo29UIAccessibilityIdentification", "cz_avatarImage"]
+- ["PSo29UIAccessibilityIdentification", "cz_setImage"]
+- !private ["PSo29UIAccessibilityIdentification", "image"]
+- !private ["PSo29UIAccessibilityIdentification", "sd_setImage"]
+- !private ["PSo12UIAppearance", "URL"]
+- !private ["PSo12UIAppearance", "bounds"]
+- ["PSo12UIAppearance", "cz_setImage"]
+- !private ["PSo12UIAppearance", "image"]
+- !private ["PSo12UIAppearance", "sd_setImage"]
+- !private ["PSo21UIAppearanceContainer", "URL"]
+- !private ["PSo21UIAppearanceContainer", "bounds"]
+- ["PSo21UIAppearanceContainer", "cz_setImage"]
+- !private ["PSo21UIAppearanceContainer", "image"]
+- !private ["PSo21UIAppearanceContainer", "sd_setImage"]
+- !private ["PSo17UICoordinateSpace", "URL"]
+- !private ["PSo17UICoordinateSpace", "bounds"]
+- ["PSo17UICoordinateSpace", "cz_setImage"]
+- !private ["PSo17UICoordinateSpace", "image"]
+- !private ["PSo17UICoordinateSpace", "sd_setImage"]
+- !private ["PSo13UIDynamicItem", "URL"]
+- !private ["PSo13UIDynamicItem", "bounds"]
+- ["PSo13UIDynamicItem", "cz_setImage"]
+- !private ["PSo13UIDynamicItem", "image"]
+- !private ["PSo13UIDynamicItem", "sd_setImage"]
+- !private ["PSo18UIFocusEnvironment", "URL"]
+- !private ["PSo18UIFocusEnvironment", "bounds"]
+- ["PSo18UIFocusEnvironment", "cz_setImage"]
+- !private ["PSo18UIFocusEnvironment", "image"]
+- !private ["PSo18UIFocusEnvironment", "sd_setImage"]
+- !private ["PSo11UIFocusItem", "URL"]
+- !private ["PSo11UIFocusItem", "bounds"]
+- ["PSo11UIFocusItem", "cz_setImage"]
+- !private ["PSo11UIFocusItem", "image"]
+- !private ["PSo11UIFocusItem", "sd_setImage"]
+- !private ["CSo7UIImage", "cz_avatarImage"]
+- !private ["CSo7UIImage", "deinit"]
+- ["CSo11UIImageView", "Bool"]
+- ["CSo11UIImageView", "String"]
+- ["CSo11UIImageView", "UIImage"]
+- !private ["CSo11UIImageView", "URL"]
+- !private ["CSo11UIImageView", "bounds"]
+- ["CSo11UIImageView", "cz_setImage"]
+- ["CSo11UIImageView", "deinit"]
+- !private ["CSo11UIImageView", "image"]
+- !private ["CSo11UIImageView", "sd_setImage"]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UIImage"]
+- !private ["CSo11UIResponder", "URL"]
+- !private ["CSo11UIResponder", "bounds"]
+- ["CSo11UIResponder", "cz_setImage"]
+- !private ["CSo11UIResponder", "image"]
+- !private ["CSo11UIResponder", "sd_setImage"]
+- !private ["PSo30UIResponderStandardEditActions", "URL"]
+- !private ["PSo30UIResponderStandardEditActions", "bounds"]
+- ["PSo30UIResponderStandardEditActions", "cz_setImage"]
+- !private ["PSo30UIResponderStandardEditActions", "image"]
+- !private ["PSo30UIResponderStandardEditActions", "sd_setImage"]
+- !private ["PSo18UITraitEnvironment", "URL"]
+- !private ["PSo18UITraitEnvironment", "bounds"]
+- ["PSo18UITraitEnvironment", "cz_setImage"]
+- !private ["PSo18UITraitEnvironment", "image"]
+- !private ["PSo18UITraitEnvironment", "sd_setImage"]
+- ["CSo6UIView", "Bool"]
+- ["CSo6UIView", "String"]
+- ["CSo6UIView", "UIImage"]
+- !private ["CSo6UIView", "URL"]
+- !private ["CSo6UIView", "bounds"]
+- ["CSo6UIView", "cz_setImage"]
+- !private ["CSo6UIView", "image"]
+- !private ["CSo6UIView", "sd_setImage"]
+- ["V10Foundation3URL", "deinit"]
+- !private ["V10Foundation3URL", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "URL"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "bounds"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "cz_setImage"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "image"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "sd_setImage"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps34_ExpressibleByFileReferenceLiteral", "init"]
+- !private ["Ps26_ExpressibleByImageLiteral", "cz_avatarImage"]
+- !private ["Ps9_Hashable", "URL"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "bounds"]
+- !private ["Ps9_Hashable", "cz_avatarImage"]
+- ["Ps9_Hashable", "cz_setImage"]
+- !private ["Ps9_Hashable", "image"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "sd_setImage"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- "PSo15CALayerDelegate"
+- !private "VSC6CGRect"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps23ExpressibleByNilLiteral"
+- "Ps8Hashable"
+- "SQ"
+- !private "Ps25LosslessStringConvertible"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "Ps9OptionSet"
+- "Sq"
+- !private "Ps16RawRepresentable"
+- !private "P10Foundation20ReferenceConvertible"
+- "VSC17SDWebImageOptions"
+- !private "Ps10SetAlgebra"
+- "SS"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- !private "CSo7UIImage"
+- "CSo11UIImageView"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "V10Foundation3URL"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps34_ExpressibleByFileReferenceLiteral"
+- !private "Ps26_ExpressibleByImageLiteral"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Weibo-Bridge.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/CZAdditions.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/UILabel+CZAddition.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/UIButton+CZAddition.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/UIColor+CZAddition.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/UIView+CZAddition.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/UIScreen+CZAddition.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/UIViewController+CZAddition.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/NSObject+CZRuntime.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/NSAttributedString+CZAdditon.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/NSString+CZHash.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/NSString+CZBase64.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/NSString+CZPath.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/PhotoBrowser/HMPhotoBrowserController.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/SDWebImageDecoder.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Modules/module.modulemap"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SVProgressHUD.framework/Headers/SVIndefiniteAnimatedView.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SVProgressHUD.framework/Headers/SVProgressHUD-umbrella.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SVProgressHUD.framework/Modules/module.modulemap"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POPLayerExtras.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POPDecayAnimation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POPCustomAnimation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POPBasicAnimation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POPAnimator.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POPPropertyAnimation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POPSpringAnimation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POPAnimationExtras.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POPGeometry.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POPAnimationEvent.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POPAnimationTracer.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POPAnimation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POPAnimatableProperty.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POPDefines.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POP.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/pop-umbrella.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Modules/module.modulemap"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/UIProgressView+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/UIWebView+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/UIRefreshControl+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/UIKit+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/UIImageView+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/UIImage+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/UIButton+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/UIActivityIndicatorView+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworkActivityIndicatorManager.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/AFImageDownloader.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/AFAutoPurgingImageCache.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/AFHTTPSessionManager.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/AFURLSessionManager.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworkReachabilityManager.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/AFSecurityPolicy.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/AFURLResponseSerialization.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/AFURLRequestSerialization.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworking-umbrella.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Modules/module.modulemap"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/YYModel.framework/Headers/YYModel.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/YYModel.framework/Headers/YYClassInfo.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/YYModel.framework/Headers/NSObject+YYModel.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/YYModel.framework/Headers/YYModel-umbrella.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/YYModel.framework/Modules/module.modulemap"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/FMDB.framework/Headers/FMDB.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/FMDB.framework/Headers/FMDatabaseQueue.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/FMDB.framework/Headers/FMDatabaseAdditions.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/FMDB.framework/Headers/FMDatabasePool.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/FMDB.framework/Headers/FMResultSet.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/FMDB.framework/Headers/FMDatabase.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/FMDB.framework/Headers/FMDB-umbrella.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/FMDB.framework/Modules/module.modulemap"
+interface-hash: "f9116431abea5df8a7f67804aa43b16e"

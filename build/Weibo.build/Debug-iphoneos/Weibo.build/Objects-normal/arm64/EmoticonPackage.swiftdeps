@@ -1,0 +1,686 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "EmoticonPackage"
+provides-nominal:
+- "C5Weibo15EmoticonPackage"
+provides-member:
+- ["C5Weibo15EmoticonPackage", ""]
+provides-dynamic-lookup:
+- "bgImageName"
+- "numberOfPages"
+- "description"
+- "groupName"
+- "emoticon"
+- "directory"
+- "emoticons"
+depends-top-level:
+- !private "Bundle"
+- !private "NSArray"
+- !private "NSRange"
+- !private "+"
+- !private "-"
+- "AssignmentPrecedence"
+- !private ">"
+- "CastingPrecedence"
+- "Int"
+- !private "+="
+- "String"
+- "EmoticonPackage"
+- !private "/"
+- "Emoticon"
+- !private "StringLiteralType"
+- !private "*"
+- "NSObject"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "Stride"]
+- !private ["Ps9AnyObject", "Bundle"]
+- ["Ps9AnyObject", "Emoticon"]
+- !private ["Ps9AnyObject", "NSArray"]
+- !private ["Ps9AnyObject", "NSRange"]
+- ["Ps9AnyObject", "bgImageName"]
+- ["Ps9AnyObject", "description"]
+- ["Ps9AnyObject", "directory"]
+- ["Ps9AnyObject", "emoticon"]
+- ["Ps9AnyObject", "emoticons"]
+- ["Ps9AnyObject", "emoticons.storage"]
+- ["Ps9AnyObject", "groupName"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "main"]
+- ["Ps9AnyObject", "numberOfPages"]
+- !private ["Ps9AnyObject", "path"]
+- !private ["Ps9AnyObject", "subarray"]
+- !private ["Ps9AnyObject", "yy_modelArray"]
+- !private ["Ps9AnyObject", "yy_modelDescription"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "IndexDistance"]
+- !private ["Sa", "Iterator"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "count"]
+- ["Sa", "deinit"]
+- ["Sa", "init"]
+- !private ["Ps23BidirectionalCollection", "IndexDistance"]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps22BidirectionalIndexable", "IndexDistance"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "count"]
+- ["Ps22BidirectionalIndexable", "init"]
+- !private ["Ps19BinaryFloatingPoint", "Stride"]
+- !private ["Ps17BitwiseOperations", "Stride"]
+- !private ["Ps17BitwiseOperations", "_DisallowMixedSignArithmetic"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- ["CSo6Bundle", "deinit"]
+- !private ["CSo6Bundle", "init"]
+- !private ["CSo6Bundle", "main"]
+- !private ["CSo6Bundle", "path"]
+- !private ["V12CoreGraphics7CGFloat", "Stride"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["Ps7CVarArg", "Bundle"]
+- ["Ps7CVarArg", "Emoticon"]
+- !private ["Ps7CVarArg", "IndexDistance"]
+- !private ["Ps7CVarArg", "Iterator"]
+- !private ["Ps7CVarArg", "NSArray"]
+- !private ["Ps7CVarArg", "NSRange"]
+- !private ["Ps7CVarArg", "Stride"]
+- !private ["Ps7CVarArg", "_DisallowMixedSignArithmetic"]
+- !private ["Ps7CVarArg", "_Element"]
+- ["Ps7CVarArg", "bgImageName"]
+- !private ["Ps7CVarArg", "count"]
+- ["Ps7CVarArg", "description"]
+- ["Ps7CVarArg", "directory"]
+- ["Ps7CVarArg", "emoticon"]
+- ["Ps7CVarArg", "emoticons"]
+- ["Ps7CVarArg", "emoticons.storage"]
+- ["Ps7CVarArg", "groupName"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "main"]
+- ["Ps7CVarArg", "numberOfPages"]
+- !private ["Ps7CVarArg", "path"]
+- !private ["Ps7CVarArg", "subarray"]
+- !private ["Ps7CVarArg", "yy_modelArray"]
+- !private ["Ps7CVarArg", "yy_modelDescription"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "IndexDistance"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "count"]
+- ["Ps10Collection", "init"]
+- !private ["Ps10Comparable", "Stride"]
+- !private ["Ps10Comparable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Bundle"]
+- ["Ps28CustomDebugStringConvertible", "Emoticon"]
+- !private ["Ps28CustomDebugStringConvertible", "IndexDistance"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "NSArray"]
+- !private ["Ps28CustomDebugStringConvertible", "NSRange"]
+- !private ["Ps28CustomDebugStringConvertible", "Stride"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- ["Ps28CustomDebugStringConvertible", "bgImageName"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- ["Ps28CustomDebugStringConvertible", "description"]
+- ["Ps28CustomDebugStringConvertible", "directory"]
+- ["Ps28CustomDebugStringConvertible", "emoticon"]
+- ["Ps28CustomDebugStringConvertible", "emoticons"]
+- ["Ps28CustomDebugStringConvertible", "emoticons.storage"]
+- ["Ps28CustomDebugStringConvertible", "groupName"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "main"]
+- ["Ps28CustomDebugStringConvertible", "numberOfPages"]
+- !private ["Ps28CustomDebugStringConvertible", "path"]
+- ["Ps28CustomDebugStringConvertible", "some"]
+- !private ["Ps28CustomDebugStringConvertible", "subarray"]
+- !private ["Ps28CustomDebugStringConvertible", "yy_modelArray"]
+- !private ["Ps28CustomDebugStringConvertible", "yy_modelDescription"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Stride"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "IndexDistance"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "Stride"]
+- !private ["Ps17CustomReflectable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "count"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps17CustomReflectable", "some"]
+- !private ["Ps17CustomReflectable", "subarray"]
+- !private ["Ps17CustomReflectable", "yy_modelArray"]
+- !private ["Ps23CustomStringConvertible", "Bundle"]
+- ["Ps23CustomStringConvertible", "Emoticon"]
+- !private ["Ps23CustomStringConvertible", "IndexDistance"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "NSArray"]
+- !private ["Ps23CustomStringConvertible", "NSRange"]
+- !private ["Ps23CustomStringConvertible", "Stride"]
+- !private ["Ps23CustomStringConvertible", "_DisallowMixedSignArithmetic"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "bgImageName"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- ["Ps23CustomStringConvertible", "description"]
+- ["Ps23CustomStringConvertible", "directory"]
+- ["Ps23CustomStringConvertible", "emoticon"]
+- ["Ps23CustomStringConvertible", "emoticons"]
+- ["Ps23CustomStringConvertible", "emoticons.storage"]
+- ["Ps23CustomStringConvertible", "groupName"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "main"]
+- ["Ps23CustomStringConvertible", "numberOfPages"]
+- !private ["Ps23CustomStringConvertible", "path"]
+- !private ["Ps23CustomStringConvertible", "subarray"]
+- !private ["Ps23CustomStringConvertible", "yy_modelArray"]
+- !private ["Ps23CustomStringConvertible", "yy_modelDescription"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["VSC7Decimal", "Stride"]
+- !private ["VSC7Decimal", "deinit"]
+- !private ["Sd", "Stride"]
+- !private ["Sd", "deinit"]
+- ["C5Weibo8Emoticon", "deinit"]
+- !private ["C5Weibo8Emoticon", "directory"]
+- !private ["C5Weibo15EmoticonPackage", "Bundle"]
+- ["C5Weibo15EmoticonPackage", "Emoticon"]
+- ["C5Weibo15EmoticonPackage", "Int"]
+- !private ["C5Weibo15EmoticonPackage", "NSArray"]
+- !private ["C5Weibo15EmoticonPackage", "NSRange"]
+- ["C5Weibo15EmoticonPackage", "String"]
+- ["C5Weibo15EmoticonPackage", "bgImageName"]
+- ["C5Weibo15EmoticonPackage", "deinit"]
+- ["C5Weibo15EmoticonPackage", "description"]
+- ["C5Weibo15EmoticonPackage", "directory"]
+- ["C5Weibo15EmoticonPackage", "emoticon"]
+- ["C5Weibo15EmoticonPackage", "emoticons"]
+- !private ["C5Weibo15EmoticonPackage", "emoticons.storage"]
+- ["C5Weibo15EmoticonPackage", "groupName"]
+- ["C5Weibo15EmoticonPackage", "init"]
+- ["C5Weibo15EmoticonPackage", "numberOfPages"]
+- !private ["C5Weibo15EmoticonPackage", "yy_modelDescription"]
+- !private ["Ps9Equatable", "Bundle"]
+- ["Ps9Equatable", "Emoticon"]
+- !private ["Ps9Equatable", "NSArray"]
+- !private ["Ps9Equatable", "NSRange"]
+- !private ["Ps9Equatable", "Stride"]
+- !private ["Ps9Equatable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "bgImageName"]
+- ["Ps9Equatable", "description"]
+- ["Ps9Equatable", "directory"]
+- ["Ps9Equatable", "emoticon"]
+- ["Ps9Equatable", "emoticons"]
+- ["Ps9Equatable", "emoticons.storage"]
+- ["Ps9Equatable", "groupName"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "main"]
+- ["Ps9Equatable", "numberOfPages"]
+- !private ["Ps9Equatable", "path"]
+- !private ["Ps9Equatable", "subarray"]
+- !private ["Ps9Equatable", "yy_modelArray"]
+- !private ["Ps9Equatable", "yy_modelDescription"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "IndexDistance"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subarray"]
+- !private ["Ps25ExpressibleByArrayLiteral", "yy_modelArray"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "Stride"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Stride"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "_DisallowMixedSignArithmetic"]
+- ["Ps23ExpressibleByNilLiteral", "some"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "Stride"]
+- !private ["Sf", "deinit"]
+- !private ["Ps13FloatingPoint", "Stride"]
+- !private ["Ps8Hashable", "Bundle"]
+- ["Ps8Hashable", "Emoticon"]
+- !private ["Ps8Hashable", "NSArray"]
+- !private ["Ps8Hashable", "NSRange"]
+- !private ["Ps8Hashable", "Stride"]
+- !private ["Ps8Hashable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "bgImageName"]
+- ["Ps8Hashable", "description"]
+- ["Ps8Hashable", "directory"]
+- ["Ps8Hashable", "emoticon"]
+- ["Ps8Hashable", "emoticons"]
+- ["Ps8Hashable", "emoticons.storage"]
+- ["Ps8Hashable", "groupName"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "main"]
+- ["Ps8Hashable", "numberOfPages"]
+- !private ["Ps8Hashable", "path"]
+- !private ["Ps8Hashable", "subarray"]
+- !private ["Ps8Hashable", "yy_modelArray"]
+- !private ["Ps8Hashable", "yy_modelDescription"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "IndexDistance"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "count"]
+- ["Ps9Indexable", "init"]
+- !private ["Ps13IndexableBase", "IndexDistance"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "count"]
+- ["Ps13IndexableBase", "init"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Si", "Stride"]
+- ["Si", "deinit"]
+- !private ["Vs5Int16", "Stride"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "Stride"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "Stride"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "Stride"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps7Integer", "Stride"]
+- !private ["Ps7Integer", "_DisallowMixedSignArithmetic"]
+- !private ["Ps17IntegerArithmetic", "Stride"]
+- !private ["Ps17IntegerArithmetic", "_DisallowMixedSignArithmetic"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps25LosslessStringConvertible", "Stride"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "Stride"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "IndexDistance"]
+- !private ["Ps17MutableCollection", "Iterator"]
+- !private ["Ps17MutableCollection", "_Element"]
+- !private ["Ps17MutableCollection", "count"]
+- ["Ps17MutableCollection", "init"]
+- !private ["Ps16MutableIndexable", "IndexDistance"]
+- !private ["Ps16MutableIndexable", "Iterator"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "count"]
+- ["Ps16MutableIndexable", "init"]
+- ["CSo7NSArray", "deinit"]
+- !private ["CSo7NSArray", "init"]
+- !private ["CSo7NSArray", "subarray"]
+- !private ["CSo7NSArray", "yy_modelArray"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "subarray"]
+- !private ["PSo8NSCoding", "yy_modelArray"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "subarray"]
+- !private ["PSo9NSCopying", "yy_modelArray"]
+- !private ["PSo17NSFastEnumeration", "init"]
+- !private ["PSo17NSFastEnumeration", "subarray"]
+- !private ["PSo17NSFastEnumeration", "yy_modelArray"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "subarray"]
+- !private ["PSo16NSMutableCopying", "yy_modelArray"]
+- !private ["CSo8NSObject", "Bundle"]
+- ["CSo8NSObject", "Emoticon"]
+- ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "NSArray"]
+- !private ["CSo8NSObject", "NSRange"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "bgImageName"]
+- ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "description"]
+- ["CSo8NSObject", "directory"]
+- ["CSo8NSObject", "emoticon"]
+- ["CSo8NSObject", "emoticons"]
+- ["CSo8NSObject", "emoticons.storage"]
+- ["CSo8NSObject", "groupName"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "main"]
+- ["CSo8NSObject", "numberOfPages"]
+- !private ["CSo8NSObject", "path"]
+- !private ["CSo8NSObject", "subarray"]
+- !private ["CSo8NSObject", "yy_modelArray"]
+- !private ["CSo8NSObject", "yy_modelDescription"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "Bundle"]
+- ["PSo16NSObjectProtocol", "Emoticon"]
+- !private ["PSo16NSObjectProtocol", "NSArray"]
+- !private ["PSo16NSObjectProtocol", "NSRange"]
+- ["PSo16NSObjectProtocol", "bgImageName"]
+- ["PSo16NSObjectProtocol", "description"]
+- ["PSo16NSObjectProtocol", "directory"]
+- ["PSo16NSObjectProtocol", "emoticon"]
+- ["PSo16NSObjectProtocol", "emoticons"]
+- ["PSo16NSObjectProtocol", "emoticons.storage"]
+- ["PSo16NSObjectProtocol", "groupName"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "main"]
+- ["PSo16NSObjectProtocol", "numberOfPages"]
+- !private ["PSo16NSObjectProtocol", "path"]
+- !private ["PSo16NSObjectProtocol", "subarray"]
+- !private ["PSo16NSObjectProtocol", "yy_modelArray"]
+- !private ["PSo16NSObjectProtocol", "yy_modelDescription"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "subarray"]
+- !private ["PSo14NSSecureCoding", "yy_modelArray"]
+- !private ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
+- ["Sq", "some"]
+- !private ["Ps22RandomAccessCollection", "IndexDistance"]
+- !private ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps21RandomAccessIndexable", "IndexDistance"]
+- !private ["Ps21RandomAccessIndexable", "Iterator"]
+- !private ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "count"]
+- ["Ps21RandomAccessIndexable", "init"]
+- !private ["Ps26RangeReplaceableCollection", "IndexDistance"]
+- !private ["Ps26RangeReplaceableCollection", "Iterator"]
+- !private ["Ps26RangeReplaceableCollection", "_Element"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps25RangeReplaceableIndexable", "IndexDistance"]
+- !private ["Ps25RangeReplaceableIndexable", "Iterator"]
+- !private ["Ps25RangeReplaceableIndexable", "_Element"]
+- !private ["Ps25RangeReplaceableIndexable", "count"]
+- ["Ps25RangeReplaceableIndexable", "init"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "IndexDistance"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "count"]
+- ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "subarray"]
+- !private ["Ps8Sequence", "yy_modelArray"]
+- !private ["Ps13SignedInteger", "Stride"]
+- !private ["Ps12SignedNumber", "Stride"]
+- !private ["Ps10Strideable", "Stride"]
+- !private ["Ps10Strideable", "_DisallowMixedSignArithmetic"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Su", "Stride"]
+- !private ["Su", "_DisallowMixedSignArithmetic"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "Stride"]
+- !private ["Vs6UInt16", "_DisallowMixedSignArithmetic"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "Stride"]
+- !private ["Vs6UInt32", "_DisallowMixedSignArithmetic"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "Stride"]
+- !private ["Vs6UInt64", "_DisallowMixedSignArithmetic"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "Stride"]
+- !private ["Vs5UInt8", "_DisallowMixedSignArithmetic"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Ps15UnsignedInteger", "Stride"]
+- !private ["Ps15UnsignedInteger", "_DisallowMixedSignArithmetic"]
+- !private ["Ps14_ArrayProtocol", "IndexDistance"]
+- !private ["Ps14_ArrayProtocol", "Iterator"]
+- !private ["Ps14_ArrayProtocol", "_Element"]
+- !private ["Ps14_ArrayProtocol", "count"]
+- ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps15_CVarArgAligned", "Stride"]
+- !private ["Ps15_CVarArgAligned", "_DisallowMixedSignArithmetic"]
+- !private ["Ps22_CVarArgPassedAsDouble", "Stride"]
+- !private ["Ps24_DestructorSafeContainer", "IndexDistance"]
+- !private ["Ps24_DestructorSafeContainer", "Iterator"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "Stride"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "_DisallowMixedSignArithmetic"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "Stride"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "Stride"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "_DisallowMixedSignArithmetic"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "Bundle"]
+- ["Ps9_Hashable", "Emoticon"]
+- !private ["Ps9_Hashable", "NSArray"]
+- !private ["Ps9_Hashable", "NSRange"]
+- !private ["Ps9_Hashable", "Stride"]
+- !private ["Ps9_Hashable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "bgImageName"]
+- ["Ps9_Hashable", "description"]
+- ["Ps9_Hashable", "directory"]
+- ["Ps9_Hashable", "emoticon"]
+- ["Ps9_Hashable", "emoticons"]
+- ["Ps9_Hashable", "emoticons.storage"]
+- ["Ps9_Hashable", "groupName"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "main"]
+- ["Ps9_Hashable", "numberOfPages"]
+- !private ["Ps9_Hashable", "path"]
+- !private ["Ps9_Hashable", "subarray"]
+- !private ["Ps9_Hashable", "yy_modelArray"]
+- !private ["Ps9_Hashable", "yy_modelDescription"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "Stride"]
+- !private ["Ps14_Incrementable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps8_Integer", "Stride"]
+- !private ["Ps8_Integer", "_DisallowMixedSignArithmetic"]
+- !private ["Ps18_IntegerArithmetic", "Stride"]
+- !private ["Ps18_IntegerArithmetic", "_DisallowMixedSignArithmetic"]
+- ["VSC8_NSRange", "deinit"]
+- !private ["VSC8_NSRange", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "IndexDistance"]
+- !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Stride"]
+- !private ["Ps21_ObjectiveCBridgeable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps14_SignedInteger", "Stride"]
+- !private ["Ps11_Strideable", "Stride"]
+- !private ["Ps11_Strideable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps14_StringElement", "Stride"]
+- !private ["Ps14_StringElement", "_DisallowMixedSignArithmetic"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- "Sa"
+- "Ps23BidirectionalCollection"
+- "Ps22BidirectionalIndexable"
+- !private "Ps19BinaryFloatingPoint"
+- !private "Ps17BitwiseOperations"
+- "Sb"
+- "CSo6Bundle"
+- !private "V12CoreGraphics7CGFloat"
+- "Ps7CVarArg"
+- "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "VSC7Decimal"
+- !private "Sd"
+- "C5Weibo8Emoticon"
+- "C5Weibo15EmoticonPackage"
+- "Ps9Equatable"
+- "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps23ExpressibleByNilLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- !private "Ps13FloatingPoint"
+- "Ps8Hashable"
+- "Ps9Indexable"
+- "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps16IteratorProtocol"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "Ps17MutableCollection"
+- "Ps16MutableIndexable"
+- "CSo7NSArray"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo17NSFastEnumeration"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Sq"
+- "Ps22RandomAccessCollection"
+- "Ps21RandomAccessIndexable"
+- "Ps26RangeReplaceableCollection"
+- "Ps25RangeReplaceableIndexable"
+- "Ps8Sequence"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Ps15UnsignedInteger"
+- "Ps14_ArrayProtocol"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- "Ps24_DestructorSafeContainer"
+- !private "Ps28_DisallowMixedSignArithmetic"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps33_ExpressibleByBuiltinFloatLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- "VSC8_NSRange"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+- !private "Ps14_StringElement"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Weibo-Bridge.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/CZAdditions.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/UILabel+CZAddition.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/UIButton+CZAddition.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/UIColor+CZAddition.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/UIView+CZAddition.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/UIScreen+CZAddition.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/UIViewController+CZAddition.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/NSObject+CZRuntime.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/NSAttributedString+CZAdditon.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/NSString+CZHash.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/NSString+CZBase64.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/NSString+CZPath.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/PhotoBrowser/HMPhotoBrowserController.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/SDWebImageDecoder.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Modules/module.modulemap"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SVProgressHUD.framework/Headers/SVIndefiniteAnimatedView.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SVProgressHUD.framework/Headers/SVProgressHUD-umbrella.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SVProgressHUD.framework/Modules/module.modulemap"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POPLayerExtras.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POPDecayAnimation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POPCustomAnimation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POPBasicAnimation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POPAnimator.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POPPropertyAnimation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POPSpringAnimation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POPAnimationExtras.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POPGeometry.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POPAnimationEvent.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POPAnimationTracer.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POPAnimation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POPAnimatableProperty.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POPDefines.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POP.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/pop-umbrella.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Modules/module.modulemap"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/UIProgressView+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/UIWebView+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/UIRefreshControl+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/UIKit+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/UIImageView+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/UIImage+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/UIButton+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/UIActivityIndicatorView+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworkActivityIndicatorManager.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/AFImageDownloader.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/AFAutoPurgingImageCache.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/AFHTTPSessionManager.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/AFURLSessionManager.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworkReachabilityManager.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/AFSecurityPolicy.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/AFURLResponseSerialization.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/AFURLRequestSerialization.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworking-umbrella.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Modules/module.modulemap"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/YYModel.framework/Headers/YYModel.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/YYModel.framework/Headers/YYClassInfo.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/YYModel.framework/Headers/NSObject+YYModel.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/YYModel.framework/Headers/YYModel-umbrella.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/YYModel.framework/Modules/module.modulemap"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/FMDB.framework/Headers/FMDB.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/FMDB.framework/Headers/FMDatabaseQueue.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/FMDB.framework/Headers/FMDatabaseAdditions.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/FMDB.framework/Headers/FMDatabasePool.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/FMDB.framework/Headers/FMResultSet.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/FMDB.framework/Headers/FMDatabase.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/FMDB.framework/Headers/FMDB-umbrella.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/FMDB.framework/Modules/module.modulemap"
+interface-hash: "8b595c58c57b3450d9ce6522fee9d80d"

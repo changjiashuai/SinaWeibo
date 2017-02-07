@@ -1,0 +1,861 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MeituanRefreshView"
+provides-nominal:
+- "C5Weibo18MeituanRefreshView"
+provides-member:
+- ["C5Weibo18MeituanRefreshView", ""]
+provides-dynamic-lookup:
+- "kangarooIconView"
+- "earthIconView"
+- "parentHeight"
+- "awakeFromNib"
+- "buildIconView"
+depends-top-level:
+- "CGFloat"
+- "MeituanRefreshView"
+- !private "_ImageLiteralType"
+- !private "UIImage"
+- !private "/"
+- "AssignmentPrecedence"
+- !private "<"
+- "UIImageView"
+- !private "MAXFLOAT"
+- !private ">"
+- !private "StringLiteralType"
+- !private "CGAffineTransform"
+- "RefreshView"
+- !private "CABasicAnimation"
+- !private "CGPoint"
+- !private "Array"
+- !private "BooleanLiteralType"
+- !private "*"
+- !private "-"
+- !private "M_PI"
+depends-member:
+- !private ["Ps9AnyObject", "CABasicAnimation"]
+- !private ["Ps9AnyObject", "CGAffineTransform"]
+- !private ["Ps9AnyObject", "CGPoint"]
+- !private ["Ps9AnyObject", "MAXFLOAT"]
+- !private ["Ps9AnyObject", "M_PI"]
+- !private ["Ps9AnyObject", "UIImage"]
+- !private ["Ps9AnyObject", "add"]
+- !private ["Ps9AnyObject", "anchorPoint"]
+- !private ["Ps9AnyObject", "animatedImage"]
+- ["Ps9AnyObject", "awakeFromNib"]
+- !private ["Ps9AnyObject", "bounds"]
+- ["Ps9AnyObject", "buildIconView"]
+- !private ["Ps9AnyObject", "center"]
+- !private ["Ps9AnyObject", "duration"]
+- ["Ps9AnyObject", "earthIconView"]
+- !private ["Ps9AnyObject", "image"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isRemovedOnCompletion"]
+- ["Ps9AnyObject", "kangarooIconView"]
+- !private ["Ps9AnyObject", "layer"]
+- ["Ps9AnyObject", "parentHeight"]
+- !private ["Ps9AnyObject", "repeatCount"]
+- !private ["Ps9AnyObject", "toValue"]
+- !private ["Ps9AnyObject", "transform"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Element"]
+- ["Sa", "deinit"]
+- !private ["Ps23BidirectionalCollection", "Element"]
+- !private ["Ps22BidirectionalIndexable", "Element"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["PSo8CAAction", "duration"]
+- !private ["PSo8CAAction", "init"]
+- !private ["PSo8CAAction", "isRemovedOnCompletion"]
+- !private ["PSo8CAAction", "repeatCount"]
+- !private ["PSo8CAAction", "toValue"]
+- !private ["CSo11CAAnimation", "duration"]
+- !private ["CSo11CAAnimation", "init"]
+- !private ["CSo11CAAnimation", "isRemovedOnCompletion"]
+- !private ["CSo11CAAnimation", "repeatCount"]
+- !private ["CSo11CAAnimation", "toValue"]
+- ["CSo16CABasicAnimation", "deinit"]
+- !private ["CSo16CABasicAnimation", "duration"]
+- !private ["CSo16CABasicAnimation", "init"]
+- !private ["CSo16CABasicAnimation", "isRemovedOnCompletion"]
+- !private ["CSo16CABasicAnimation", "repeatCount"]
+- !private ["CSo16CABasicAnimation", "toValue"]
+- !private ["CSo7CALayer", "add"]
+- !private ["CSo7CALayer", "anchorPoint"]
+- ["CSo7CALayer", "deinit"]
+- !private ["PSo15CALayerDelegate", "CABasicAnimation"]
+- !private ["PSo15CALayerDelegate", "CGAffineTransform"]
+- !private ["PSo15CALayerDelegate", "CGPoint"]
+- !private ["PSo15CALayerDelegate", "MAXFLOAT"]
+- !private ["PSo15CALayerDelegate", "M_PI"]
+- !private ["PSo15CALayerDelegate", "UIImage"]
+- ["PSo15CALayerDelegate", "awakeFromNib"]
+- !private ["PSo15CALayerDelegate", "bounds"]
+- ["PSo15CALayerDelegate", "buildIconView"]
+- !private ["PSo15CALayerDelegate", "center"]
+- ["PSo15CALayerDelegate", "earthIconView"]
+- !private ["PSo15CALayerDelegate", "image"]
+- !private ["PSo15CALayerDelegate", "init"]
+- ["PSo15CALayerDelegate", "kangarooIconView"]
+- !private ["PSo15CALayerDelegate", "layer"]
+- ["PSo15CALayerDelegate", "parentHeight"]
+- !private ["PSo15CALayerDelegate", "transform"]
+- ["PSo15CALayerDelegate", ""]
+- !private ["PSo13CAMediaTiming", "add"]
+- !private ["PSo13CAMediaTiming", "anchorPoint"]
+- !private ["PSo13CAMediaTiming", "duration"]
+- !private ["PSo13CAMediaTiming", "init"]
+- !private ["PSo13CAMediaTiming", "isRemovedOnCompletion"]
+- !private ["PSo13CAMediaTiming", "repeatCount"]
+- !private ["PSo13CAMediaTiming", "toValue"]
+- !private ["CSo19CAPropertyAnimation", "duration"]
+- !private ["CSo19CAPropertyAnimation", "init"]
+- !private ["CSo19CAPropertyAnimation", "isRemovedOnCompletion"]
+- !private ["CSo19CAPropertyAnimation", "repeatCount"]
+- !private ["CSo19CAPropertyAnimation", "toValue"]
+- ["VSC17CGAffineTransform", "deinit"]
+- !private ["VSC17CGAffineTransform", "init"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- ["VSC7CGPoint", "deinit"]
+- !private ["VSC7CGPoint", "init"]
+- ["VSC6CGRect", "deinit"]
+- !private ["VSC6CGRect", "height"]
+- !private ["VSC6CGRect", "width"]
+- !private ["Ps7CVarArg", "CABasicAnimation"]
+- !private ["Ps7CVarArg", "CGAffineTransform"]
+- !private ["Ps7CVarArg", "CGPoint"]
+- !private ["Ps7CVarArg", "Element"]
+- !private ["Ps7CVarArg", "MAXFLOAT"]
+- !private ["Ps7CVarArg", "M_PI"]
+- !private ["Ps7CVarArg", "UIImage"]
+- !private ["Ps7CVarArg", "add"]
+- !private ["Ps7CVarArg", "anchorPoint"]
+- !private ["Ps7CVarArg", "animatedImage"]
+- ["Ps7CVarArg", "awakeFromNib"]
+- !private ["Ps7CVarArg", "bounds"]
+- ["Ps7CVarArg", "buildIconView"]
+- !private ["Ps7CVarArg", "center"]
+- !private ["Ps7CVarArg", "duration"]
+- ["Ps7CVarArg", "earthIconView"]
+- !private ["Ps7CVarArg", "image"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isRemovedOnCompletion"]
+- ["Ps7CVarArg", "kangarooIconView"]
+- !private ["Ps7CVarArg", "layer"]
+- ["Ps7CVarArg", "parentHeight"]
+- !private ["Ps7CVarArg", "repeatCount"]
+- !private ["Ps7CVarArg", "toValue"]
+- !private ["Ps7CVarArg", "transform"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "Element"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "CABasicAnimation"]
+- !private ["Ps28CustomDebugStringConvertible", "CGAffineTransform"]
+- !private ["Ps28CustomDebugStringConvertible", "CGPoint"]
+- !private ["Ps28CustomDebugStringConvertible", "Element"]
+- !private ["Ps28CustomDebugStringConvertible", "MAXFLOAT"]
+- !private ["Ps28CustomDebugStringConvertible", "M_PI"]
+- !private ["Ps28CustomDebugStringConvertible", "UIImage"]
+- !private ["Ps28CustomDebugStringConvertible", "add"]
+- !private ["Ps28CustomDebugStringConvertible", "anchorPoint"]
+- !private ["Ps28CustomDebugStringConvertible", "animatedImage"]
+- ["Ps28CustomDebugStringConvertible", "awakeFromNib"]
+- !private ["Ps28CustomDebugStringConvertible", "bounds"]
+- ["Ps28CustomDebugStringConvertible", "buildIconView"]
+- !private ["Ps28CustomDebugStringConvertible", "center"]
+- !private ["Ps28CustomDebugStringConvertible", "duration"]
+- ["Ps28CustomDebugStringConvertible", "earthIconView"]
+- !private ["Ps28CustomDebugStringConvertible", "height"]
+- !private ["Ps28CustomDebugStringConvertible", "image"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isRemovedOnCompletion"]
+- ["Ps28CustomDebugStringConvertible", "kangarooIconView"]
+- !private ["Ps28CustomDebugStringConvertible", "layer"]
+- ["Ps28CustomDebugStringConvertible", "parentHeight"]
+- !private ["Ps28CustomDebugStringConvertible", "repeatCount"]
+- !private ["Ps28CustomDebugStringConvertible", "toValue"]
+- !private ["Ps28CustomDebugStringConvertible", "transform"]
+- !private ["Ps28CustomDebugStringConvertible", "width"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "height"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "width"]
+- !private ["Ps17CustomReflectable", "Element"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "height"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "width"]
+- !private ["Ps23CustomStringConvertible", "CABasicAnimation"]
+- !private ["Ps23CustomStringConvertible", "CGAffineTransform"]
+- !private ["Ps23CustomStringConvertible", "CGPoint"]
+- !private ["Ps23CustomStringConvertible", "Element"]
+- !private ["Ps23CustomStringConvertible", "MAXFLOAT"]
+- !private ["Ps23CustomStringConvertible", "M_PI"]
+- !private ["Ps23CustomStringConvertible", "UIImage"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "add"]
+- !private ["Ps23CustomStringConvertible", "anchorPoint"]
+- !private ["Ps23CustomStringConvertible", "animatedImage"]
+- ["Ps23CustomStringConvertible", "awakeFromNib"]
+- !private ["Ps23CustomStringConvertible", "bounds"]
+- ["Ps23CustomStringConvertible", "buildIconView"]
+- !private ["Ps23CustomStringConvertible", "center"]
+- !private ["Ps23CustomStringConvertible", "duration"]
+- ["Ps23CustomStringConvertible", "earthIconView"]
+- !private ["Ps23CustomStringConvertible", "image"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isRemovedOnCompletion"]
+- ["Ps23CustomStringConvertible", "kangarooIconView"]
+- !private ["Ps23CustomStringConvertible", "layer"]
+- ["Ps23CustomStringConvertible", "parentHeight"]
+- !private ["Ps23CustomStringConvertible", "repeatCount"]
+- !private ["Ps23CustomStringConvertible", "toValue"]
+- !private ["Ps23CustomStringConvertible", "transform"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Sd", "deinit"]
+- !private ["Ps9Equatable", "CABasicAnimation"]
+- !private ["Ps9Equatable", "CGAffineTransform"]
+- !private ["Ps9Equatable", "CGPoint"]
+- !private ["Ps9Equatable", "MAXFLOAT"]
+- !private ["Ps9Equatable", "M_PI"]
+- !private ["Ps9Equatable", "UIImage"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "add"]
+- !private ["Ps9Equatable", "anchorPoint"]
+- !private ["Ps9Equatable", "animatedImage"]
+- ["Ps9Equatable", "awakeFromNib"]
+- !private ["Ps9Equatable", "bounds"]
+- ["Ps9Equatable", "buildIconView"]
+- !private ["Ps9Equatable", "center"]
+- !private ["Ps9Equatable", "duration"]
+- ["Ps9Equatable", "earthIconView"]
+- !private ["Ps9Equatable", "height"]
+- !private ["Ps9Equatable", "image"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isRemovedOnCompletion"]
+- ["Ps9Equatable", "kangarooIconView"]
+- !private ["Ps9Equatable", "layer"]
+- ["Ps9Equatable", "parentHeight"]
+- !private ["Ps9Equatable", "repeatCount"]
+- !private ["Ps9Equatable", "toValue"]
+- !private ["Ps9Equatable", "transform"]
+- !private ["Ps9Equatable", "width"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "Element"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Sf", "deinit"]
+- !private ["Ps8Hashable", "CABasicAnimation"]
+- !private ["Ps8Hashable", "CGAffineTransform"]
+- !private ["Ps8Hashable", "CGPoint"]
+- !private ["Ps8Hashable", "MAXFLOAT"]
+- !private ["Ps8Hashable", "M_PI"]
+- !private ["Ps8Hashable", "UIImage"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "add"]
+- !private ["Ps8Hashable", "anchorPoint"]
+- !private ["Ps8Hashable", "animatedImage"]
+- ["Ps8Hashable", "awakeFromNib"]
+- !private ["Ps8Hashable", "bounds"]
+- ["Ps8Hashable", "buildIconView"]
+- !private ["Ps8Hashable", "center"]
+- !private ["Ps8Hashable", "duration"]
+- ["Ps8Hashable", "earthIconView"]
+- !private ["Ps8Hashable", "image"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isRemovedOnCompletion"]
+- ["Ps8Hashable", "kangarooIconView"]
+- !private ["Ps8Hashable", "layer"]
+- ["Ps8Hashable", "parentHeight"]
+- !private ["Ps8Hashable", "repeatCount"]
+- !private ["Ps8Hashable", "toValue"]
+- !private ["Ps8Hashable", "transform"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- !private ["Ps9Indexable", "Element"]
+- !private ["Ps13IndexableBase", "Element"]
+- !private ["Si", "deinit"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["C5Weibo18MeituanRefreshView", "CABasicAnimation"]
+- !private ["C5Weibo18MeituanRefreshView", "CGAffineTransform"]
+- ["C5Weibo18MeituanRefreshView", "CGFloat"]
+- !private ["C5Weibo18MeituanRefreshView", "CGPoint"]
+- !private ["C5Weibo18MeituanRefreshView", "MAXFLOAT"]
+- !private ["C5Weibo18MeituanRefreshView", "M_PI"]
+- !private ["C5Weibo18MeituanRefreshView", "UIImage"]
+- ["C5Weibo18MeituanRefreshView", "UIImageView"]
+- ["C5Weibo18MeituanRefreshView", "awakeFromNib"]
+- !private ["C5Weibo18MeituanRefreshView", "bounds"]
+- ["C5Weibo18MeituanRefreshView", "buildIconView"]
+- ["C5Weibo18MeituanRefreshView", "deinit"]
+- ["C5Weibo18MeituanRefreshView", "earthIconView"]
+- ["C5Weibo18MeituanRefreshView", "init"]
+- ["C5Weibo18MeituanRefreshView", "kangarooIconView"]
+- ["C5Weibo18MeituanRefreshView", "parentHeight"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "Element"]
+- !private ["Ps16MutableIndexable", "Element"]
+- ["CSo7NSCoder", "deinit"]
+- !private ["PSo8NSCoding", "CABasicAnimation"]
+- !private ["PSo8NSCoding", "CGAffineTransform"]
+- !private ["PSo8NSCoding", "CGPoint"]
+- !private ["PSo8NSCoding", "MAXFLOAT"]
+- !private ["PSo8NSCoding", "M_PI"]
+- !private ["PSo8NSCoding", "UIImage"]
+- !private ["PSo8NSCoding", "add"]
+- !private ["PSo8NSCoding", "anchorPoint"]
+- !private ["PSo8NSCoding", "animatedImage"]
+- ["PSo8NSCoding", "awakeFromNib"]
+- !private ["PSo8NSCoding", "bounds"]
+- ["PSo8NSCoding", "buildIconView"]
+- !private ["PSo8NSCoding", "center"]
+- !private ["PSo8NSCoding", "duration"]
+- ["PSo8NSCoding", "earthIconView"]
+- !private ["PSo8NSCoding", "image"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isRemovedOnCompletion"]
+- ["PSo8NSCoding", "kangarooIconView"]
+- !private ["PSo8NSCoding", "layer"]
+- ["PSo8NSCoding", "parentHeight"]
+- !private ["PSo8NSCoding", "repeatCount"]
+- !private ["PSo8NSCoding", "toValue"]
+- !private ["PSo8NSCoding", "transform"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "duration"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "isRemovedOnCompletion"]
+- !private ["PSo9NSCopying", "repeatCount"]
+- !private ["PSo9NSCopying", "toValue"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "CABasicAnimation"]
+- !private ["CSo8NSObject", "CGAffineTransform"]
+- ["CSo8NSObject", "CGFloat"]
+- !private ["CSo8NSObject", "CGPoint"]
+- !private ["CSo8NSObject", "MAXFLOAT"]
+- !private ["CSo8NSObject", "M_PI"]
+- !private ["CSo8NSObject", "UIImage"]
+- ["CSo8NSObject", "UIImageView"]
+- !private ["CSo8NSObject", "add"]
+- !private ["CSo8NSObject", "anchorPoint"]
+- !private ["CSo8NSObject", "animatedImage"]
+- ["CSo8NSObject", "awakeFromNib"]
+- !private ["CSo8NSObject", "bounds"]
+- ["CSo8NSObject", "buildIconView"]
+- !private ["CSo8NSObject", "center"]
+- !private ["CSo8NSObject", "duration"]
+- ["CSo8NSObject", "earthIconView"]
+- !private ["CSo8NSObject", "image"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isRemovedOnCompletion"]
+- ["CSo8NSObject", "kangarooIconView"]
+- !private ["CSo8NSObject", "layer"]
+- ["CSo8NSObject", "parentHeight"]
+- !private ["CSo8NSObject", "repeatCount"]
+- !private ["CSo8NSObject", "toValue"]
+- !private ["CSo8NSObject", "transform"]
+- !private ["PSo16NSObjectProtocol", "CABasicAnimation"]
+- !private ["PSo16NSObjectProtocol", "CGAffineTransform"]
+- !private ["PSo16NSObjectProtocol", "CGPoint"]
+- !private ["PSo16NSObjectProtocol", "MAXFLOAT"]
+- !private ["PSo16NSObjectProtocol", "M_PI"]
+- !private ["PSo16NSObjectProtocol", "UIImage"]
+- !private ["PSo16NSObjectProtocol", "add"]
+- !private ["PSo16NSObjectProtocol", "anchorPoint"]
+- !private ["PSo16NSObjectProtocol", "animatedImage"]
+- ["PSo16NSObjectProtocol", "awakeFromNib"]
+- !private ["PSo16NSObjectProtocol", "bounds"]
+- ["PSo16NSObjectProtocol", "buildIconView"]
+- !private ["PSo16NSObjectProtocol", "center"]
+- !private ["PSo16NSObjectProtocol", "duration"]
+- ["PSo16NSObjectProtocol", "earthIconView"]
+- !private ["PSo16NSObjectProtocol", "image"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isRemovedOnCompletion"]
+- ["PSo16NSObjectProtocol", "kangarooIconView"]
+- !private ["PSo16NSObjectProtocol", "layer"]
+- ["PSo16NSObjectProtocol", "parentHeight"]
+- !private ["PSo16NSObjectProtocol", "repeatCount"]
+- !private ["PSo16NSObjectProtocol", "toValue"]
+- !private ["PSo16NSObjectProtocol", "transform"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "animatedImage"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
+- !private ["Ps22RandomAccessCollection", "Element"]
+- !private ["Ps21RandomAccessIndexable", "Element"]
+- !private ["Ps26RangeReplaceableCollection", "Element"]
+- !private ["Ps25RangeReplaceableIndexable", "Element"]
+- !private ["C5Weibo11RefreshView", "CABasicAnimation"]
+- !private ["C5Weibo11RefreshView", "CGAffineTransform"]
+- ["C5Weibo11RefreshView", "CGFloat"]
+- !private ["C5Weibo11RefreshView", "CGPoint"]
+- !private ["C5Weibo11RefreshView", "MAXFLOAT"]
+- !private ["C5Weibo11RefreshView", "M_PI"]
+- !private ["C5Weibo11RefreshView", "UIImage"]
+- ["C5Weibo11RefreshView", "UIImageView"]
+- ["C5Weibo11RefreshView", "awakeFromNib"]
+- !private ["C5Weibo11RefreshView", "bounds"]
+- ["C5Weibo11RefreshView", "buildIconView"]
+- ["C5Weibo11RefreshView", "deinit"]
+- ["C5Weibo11RefreshView", "earthIconView"]
+- ["C5Weibo11RefreshView", "init"]
+- ["C5Weibo11RefreshView", "kangarooIconView"]
+- ["C5Weibo11RefreshView", "parentHeight"]
+- ["C5Weibo11RefreshView", ""]
+- !private ["Ps8Sequence", "Element"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "CABasicAnimation"]
+- !private ["PSo29UIAccessibilityIdentification", "CGAffineTransform"]
+- !private ["PSo29UIAccessibilityIdentification", "CGPoint"]
+- !private ["PSo29UIAccessibilityIdentification", "MAXFLOAT"]
+- !private ["PSo29UIAccessibilityIdentification", "M_PI"]
+- !private ["PSo29UIAccessibilityIdentification", "UIImage"]
+- !private ["PSo29UIAccessibilityIdentification", "animatedImage"]
+- ["PSo29UIAccessibilityIdentification", "awakeFromNib"]
+- !private ["PSo29UIAccessibilityIdentification", "bounds"]
+- ["PSo29UIAccessibilityIdentification", "buildIconView"]
+- !private ["PSo29UIAccessibilityIdentification", "center"]
+- ["PSo29UIAccessibilityIdentification", "earthIconView"]
+- !private ["PSo29UIAccessibilityIdentification", "image"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "kangarooIconView"]
+- !private ["PSo29UIAccessibilityIdentification", "layer"]
+- ["PSo29UIAccessibilityIdentification", "parentHeight"]
+- !private ["PSo29UIAccessibilityIdentification", "transform"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "CABasicAnimation"]
+- !private ["PSo12UIAppearance", "CGAffineTransform"]
+- !private ["PSo12UIAppearance", "CGPoint"]
+- !private ["PSo12UIAppearance", "MAXFLOAT"]
+- !private ["PSo12UIAppearance", "M_PI"]
+- !private ["PSo12UIAppearance", "UIImage"]
+- ["PSo12UIAppearance", "awakeFromNib"]
+- !private ["PSo12UIAppearance", "bounds"]
+- ["PSo12UIAppearance", "buildIconView"]
+- !private ["PSo12UIAppearance", "center"]
+- ["PSo12UIAppearance", "earthIconView"]
+- !private ["PSo12UIAppearance", "image"]
+- !private ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "kangarooIconView"]
+- !private ["PSo12UIAppearance", "layer"]
+- ["PSo12UIAppearance", "parentHeight"]
+- !private ["PSo12UIAppearance", "transform"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "CABasicAnimation"]
+- !private ["PSo21UIAppearanceContainer", "CGAffineTransform"]
+- !private ["PSo21UIAppearanceContainer", "CGPoint"]
+- !private ["PSo21UIAppearanceContainer", "MAXFLOAT"]
+- !private ["PSo21UIAppearanceContainer", "M_PI"]
+- !private ["PSo21UIAppearanceContainer", "UIImage"]
+- ["PSo21UIAppearanceContainer", "awakeFromNib"]
+- !private ["PSo21UIAppearanceContainer", "bounds"]
+- ["PSo21UIAppearanceContainer", "buildIconView"]
+- !private ["PSo21UIAppearanceContainer", "center"]
+- ["PSo21UIAppearanceContainer", "earthIconView"]
+- !private ["PSo21UIAppearanceContainer", "image"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "kangarooIconView"]
+- !private ["PSo21UIAppearanceContainer", "layer"]
+- ["PSo21UIAppearanceContainer", "parentHeight"]
+- !private ["PSo21UIAppearanceContainer", "transform"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo17UICoordinateSpace", "CABasicAnimation"]
+- !private ["PSo17UICoordinateSpace", "CGAffineTransform"]
+- !private ["PSo17UICoordinateSpace", "CGPoint"]
+- !private ["PSo17UICoordinateSpace", "MAXFLOAT"]
+- !private ["PSo17UICoordinateSpace", "M_PI"]
+- !private ["PSo17UICoordinateSpace", "UIImage"]
+- ["PSo17UICoordinateSpace", "awakeFromNib"]
+- !private ["PSo17UICoordinateSpace", "bounds"]
+- ["PSo17UICoordinateSpace", "buildIconView"]
+- !private ["PSo17UICoordinateSpace", "center"]
+- ["PSo17UICoordinateSpace", "earthIconView"]
+- !private ["PSo17UICoordinateSpace", "image"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "kangarooIconView"]
+- !private ["PSo17UICoordinateSpace", "layer"]
+- ["PSo17UICoordinateSpace", "parentHeight"]
+- !private ["PSo17UICoordinateSpace", "transform"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "CABasicAnimation"]
+- !private ["PSo13UIDynamicItem", "CGAffineTransform"]
+- !private ["PSo13UIDynamicItem", "CGPoint"]
+- !private ["PSo13UIDynamicItem", "MAXFLOAT"]
+- !private ["PSo13UIDynamicItem", "M_PI"]
+- !private ["PSo13UIDynamicItem", "UIImage"]
+- ["PSo13UIDynamicItem", "awakeFromNib"]
+- !private ["PSo13UIDynamicItem", "bounds"]
+- ["PSo13UIDynamicItem", "buildIconView"]
+- !private ["PSo13UIDynamicItem", "center"]
+- ["PSo13UIDynamicItem", "earthIconView"]
+- !private ["PSo13UIDynamicItem", "image"]
+- !private ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "kangarooIconView"]
+- !private ["PSo13UIDynamicItem", "layer"]
+- ["PSo13UIDynamicItem", "parentHeight"]
+- !private ["PSo13UIDynamicItem", "transform"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "CABasicAnimation"]
+- !private ["PSo18UIFocusEnvironment", "CGAffineTransform"]
+- !private ["PSo18UIFocusEnvironment", "CGPoint"]
+- !private ["PSo18UIFocusEnvironment", "MAXFLOAT"]
+- !private ["PSo18UIFocusEnvironment", "M_PI"]
+- !private ["PSo18UIFocusEnvironment", "UIImage"]
+- ["PSo18UIFocusEnvironment", "awakeFromNib"]
+- !private ["PSo18UIFocusEnvironment", "bounds"]
+- ["PSo18UIFocusEnvironment", "buildIconView"]
+- !private ["PSo18UIFocusEnvironment", "center"]
+- ["PSo18UIFocusEnvironment", "earthIconView"]
+- !private ["PSo18UIFocusEnvironment", "image"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "kangarooIconView"]
+- !private ["PSo18UIFocusEnvironment", "layer"]
+- ["PSo18UIFocusEnvironment", "parentHeight"]
+- !private ["PSo18UIFocusEnvironment", "transform"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "CABasicAnimation"]
+- !private ["PSo11UIFocusItem", "CGAffineTransform"]
+- !private ["PSo11UIFocusItem", "CGPoint"]
+- !private ["PSo11UIFocusItem", "MAXFLOAT"]
+- !private ["PSo11UIFocusItem", "M_PI"]
+- !private ["PSo11UIFocusItem", "UIImage"]
+- ["PSo11UIFocusItem", "awakeFromNib"]
+- !private ["PSo11UIFocusItem", "bounds"]
+- ["PSo11UIFocusItem", "buildIconView"]
+- !private ["PSo11UIFocusItem", "center"]
+- ["PSo11UIFocusItem", "earthIconView"]
+- !private ["PSo11UIFocusItem", "image"]
+- !private ["PSo11UIFocusItem", "init"]
+- ["PSo11UIFocusItem", "kangarooIconView"]
+- !private ["PSo11UIFocusItem", "layer"]
+- ["PSo11UIFocusItem", "parentHeight"]
+- !private ["PSo11UIFocusItem", "transform"]
+- ["PSo11UIFocusItem", ""]
+- !private ["CSo7UIImage", "animatedImage"]
+- ["CSo7UIImage", "deinit"]
+- !private ["CSo11UIImageView", "center"]
+- !private ["CSo11UIImageView", "image"]
+- !private ["CSo11UIImageView", "layer"]
+- !private ["CSo11UIImageView", "transform"]
+- !private ["CSo11UIResponder", "CABasicAnimation"]
+- !private ["CSo11UIResponder", "CGAffineTransform"]
+- ["CSo11UIResponder", "CGFloat"]
+- !private ["CSo11UIResponder", "CGPoint"]
+- !private ["CSo11UIResponder", "MAXFLOAT"]
+- !private ["CSo11UIResponder", "M_PI"]
+- !private ["CSo11UIResponder", "UIImage"]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "awakeFromNib"]
+- !private ["CSo11UIResponder", "bounds"]
+- ["CSo11UIResponder", "buildIconView"]
+- !private ["CSo11UIResponder", "center"]
+- ["CSo11UIResponder", "earthIconView"]
+- !private ["CSo11UIResponder", "image"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "kangarooIconView"]
+- !private ["CSo11UIResponder", "layer"]
+- ["CSo11UIResponder", "parentHeight"]
+- !private ["CSo11UIResponder", "transform"]
+- !private ["PSo30UIResponderStandardEditActions", "CABasicAnimation"]
+- !private ["PSo30UIResponderStandardEditActions", "CGAffineTransform"]
+- !private ["PSo30UIResponderStandardEditActions", "CGPoint"]
+- !private ["PSo30UIResponderStandardEditActions", "MAXFLOAT"]
+- !private ["PSo30UIResponderStandardEditActions", "M_PI"]
+- !private ["PSo30UIResponderStandardEditActions", "UIImage"]
+- ["PSo30UIResponderStandardEditActions", "awakeFromNib"]
+- !private ["PSo30UIResponderStandardEditActions", "bounds"]
+- ["PSo30UIResponderStandardEditActions", "buildIconView"]
+- !private ["PSo30UIResponderStandardEditActions", "center"]
+- ["PSo30UIResponderStandardEditActions", "earthIconView"]
+- !private ["PSo30UIResponderStandardEditActions", "image"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", "kangarooIconView"]
+- !private ["PSo30UIResponderStandardEditActions", "layer"]
+- ["PSo30UIResponderStandardEditActions", "parentHeight"]
+- !private ["PSo30UIResponderStandardEditActions", "transform"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo18UITraitEnvironment", "CABasicAnimation"]
+- !private ["PSo18UITraitEnvironment", "CGAffineTransform"]
+- !private ["PSo18UITraitEnvironment", "CGPoint"]
+- !private ["PSo18UITraitEnvironment", "MAXFLOAT"]
+- !private ["PSo18UITraitEnvironment", "M_PI"]
+- !private ["PSo18UITraitEnvironment", "UIImage"]
+- ["PSo18UITraitEnvironment", "awakeFromNib"]
+- !private ["PSo18UITraitEnvironment", "bounds"]
+- ["PSo18UITraitEnvironment", "buildIconView"]
+- !private ["PSo18UITraitEnvironment", "center"]
+- ["PSo18UITraitEnvironment", "earthIconView"]
+- !private ["PSo18UITraitEnvironment", "image"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "kangarooIconView"]
+- !private ["PSo18UITraitEnvironment", "layer"]
+- ["PSo18UITraitEnvironment", "parentHeight"]
+- !private ["PSo18UITraitEnvironment", "transform"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "CABasicAnimation"]
+- !private ["CSo6UIView", "CGAffineTransform"]
+- ["CSo6UIView", "CGFloat"]
+- !private ["CSo6UIView", "CGPoint"]
+- !private ["CSo6UIView", "MAXFLOAT"]
+- !private ["CSo6UIView", "M_PI"]
+- !private ["CSo6UIView", "UIImage"]
+- ["CSo6UIView", "UIImageView"]
+- ["CSo6UIView", "awakeFromNib"]
+- !private ["CSo6UIView", "bounds"]
+- ["CSo6UIView", "buildIconView"]
+- !private ["CSo6UIView", "center"]
+- ["CSo6UIView", "earthIconView"]
+- !private ["CSo6UIView", "image"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "kangarooIconView"]
+- !private ["CSo6UIView", "layer"]
+- ["CSo6UIView", "parentHeight"]
+- !private ["CSo6UIView", "transform"]
+- !private ["Ps14_ArrayProtocol", "Element"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "CABasicAnimation"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "CGAffineTransform"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "CGPoint"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "MAXFLOAT"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "M_PI"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UIImage"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "awakeFromNib"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "bounds"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "buildIconView"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "center"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "earthIconView"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "image"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "kangarooIconView"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "layer"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "parentHeight"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "transform"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- !private ["Ps24_DestructorSafeContainer", "Element"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps26_ExpressibleByImageLiteral", "animatedImage"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "CABasicAnimation"]
+- !private ["Ps9_Hashable", "CGAffineTransform"]
+- !private ["Ps9_Hashable", "CGPoint"]
+- !private ["Ps9_Hashable", "MAXFLOAT"]
+- !private ["Ps9_Hashable", "M_PI"]
+- !private ["Ps9_Hashable", "UIImage"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "add"]
+- !private ["Ps9_Hashable", "anchorPoint"]
+- !private ["Ps9_Hashable", "animatedImage"]
+- ["Ps9_Hashable", "awakeFromNib"]
+- !private ["Ps9_Hashable", "bounds"]
+- ["Ps9_Hashable", "buildIconView"]
+- !private ["Ps9_Hashable", "center"]
+- !private ["Ps9_Hashable", "duration"]
+- ["Ps9_Hashable", "earthIconView"]
+- !private ["Ps9_Hashable", "image"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isRemovedOnCompletion"]
+- ["Ps9_Hashable", "kangarooIconView"]
+- !private ["Ps9_Hashable", "layer"]
+- ["Ps9_Hashable", "parentHeight"]
+- !private ["Ps9_Hashable", "repeatCount"]
+- !private ["Ps9_Hashable", "toValue"]
+- !private ["Ps9_Hashable", "transform"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- "Sb"
+- !private "PSo8CAAction"
+- !private "CSo11CAAnimation"
+- "CSo16CABasicAnimation"
+- "CSo7CALayer"
+- "PSo15CALayerDelegate"
+- !private "PSo13CAMediaTiming"
+- !private "CSo19CAPropertyAnimation"
+- "VSC17CGAffineTransform"
+- "V12CoreGraphics7CGFloat"
+- "VSC7CGPoint"
+- "VSC6CGRect"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Sd"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Sf"
+- "Ps8Hashable"
+- "SQ"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Si"
+- !private "Ps25LosslessStringConvertible"
+- "C5Weibo18MeituanRefreshView"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- "C5Weibo11RefreshView"
+- !private "Ps8Sequence"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "CSo7UIImage"
+- !private "CSo11UIImageView"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "Ps14_ArrayProtocol"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps26_ExpressibleByImageLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Weibo-Bridge.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/CZAdditions.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/UILabel+CZAddition.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/UIButton+CZAddition.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/UIColor+CZAddition.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/UIView+CZAddition.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/UIScreen+CZAddition.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/UIViewController+CZAddition.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/NSObject+CZRuntime.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/NSAttributedString+CZAdditon.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/NSString+CZHash.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/NSString+CZBase64.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/NSString+CZPath.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/PhotoBrowser/HMPhotoBrowserController.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/SDWebImageDecoder.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SDWebImage.framework/Modules/module.modulemap"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SVProgressHUD.framework/Headers/SVIndefiniteAnimatedView.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SVProgressHUD.framework/Headers/SVProgressHUD-umbrella.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/SVProgressHUD.framework/Modules/module.modulemap"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POPLayerExtras.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POPDecayAnimation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POPCustomAnimation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POPBasicAnimation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POPAnimator.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POPPropertyAnimation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POPSpringAnimation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POPAnimationExtras.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POPGeometry.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POPAnimationEvent.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POPAnimationTracer.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POPAnimation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POPAnimatableProperty.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POPDefines.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/POP.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Headers/pop-umbrella.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/pop.framework/Modules/module.modulemap"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/UIProgressView+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/UIWebView+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/UIRefreshControl+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/UIKit+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/UIImageView+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/UIImage+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/UIButton+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/UIActivityIndicatorView+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/AFNetworkActivityIndicatorManager.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/AFImageDownloader.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/AFAutoPurgingImageCache.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/AFHTTPSessionManager.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/AFURLSessionManager.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/AFNetworkReachabilityManager.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/AFSecurityPolicy.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/AFURLResponseSerialization.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/AFURLRequestSerialization.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Headers/AFNetworking-umbrella.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/AFNetworking.framework/Modules/module.modulemap"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/YYModel.framework/Headers/YYModel.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/YYModel.framework/Headers/YYClassInfo.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/YYModel.framework/Headers/NSObject+YYModel.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/YYModel.framework/Headers/YYModel-umbrella.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/YYModel.framework/Modules/module.modulemap"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/FMDB.framework/Headers/FMDB.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/FMDB.framework/Headers/FMDatabaseQueue.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/FMDB.framework/Headers/FMDatabaseAdditions.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/FMDB.framework/Headers/FMDatabasePool.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/FMDB.framework/Headers/FMResultSet.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/FMDB.framework/Headers/FMDatabase.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/FMDB.framework/Headers/FMDB-umbrella.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphonesimulator/FMDB.framework/Modules/module.modulemap"
+interface-hash: "9c9a336c6782dfc048d61d34c2196f4c"

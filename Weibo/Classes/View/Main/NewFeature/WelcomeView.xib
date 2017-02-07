@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11198.2" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="WelcomeView" customModule="Weibo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ad_background" translatesAutoresizingMaskIntoConstraints="NO" id="5W0-3e-VCf"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar_default_big" translatesAutoresizingMaskIntoConstraints="NO" id="dgI-6G-Xhp">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="85" id="0cX-mm-e3Q"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="85" id="DbF-ox-uKJ"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="85" id="cT4-Zy-mkF"/>
+                        <constraint firstAttribute="height" constant="85" id="tH3-if-nge"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="欢迎归来" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Gr-g0-gD2">
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="dgI-6G-Xhp" secondAttribute="bottom" constant="160" id="CFZ-j3-wBX"/>
+                <constraint firstItem="dgI-6G-Xhp" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="HGK-Oi-A1h"/>
+                <constraint firstAttribute="bottom" secondItem="5W0-3e-VCf" secondAttribute="bottom" id="Lcq-9n-reB"/>
+                <constraint firstItem="5W0-3e-VCf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="TNC-j1-7b4"/>
+                <constraint firstItem="4Gr-g0-gD2" firstAttribute="centerX" secondItem="dgI-6G-Xhp" secondAttribute="centerX" id="UVb-Dh-9hQ"/>
+                <constraint firstAttribute="trailing" secondItem="5W0-3e-VCf" secondAttribute="trailing" id="g59-9O-CmN"/>
+                <constraint firstItem="4Gr-g0-gD2" firstAttribute="top" secondItem="dgI-6G-Xhp" secondAttribute="bottom" constant="16" id="ptP-Uk-c6i"/>
+                <constraint firstItem="5W0-3e-VCf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="pvv-d0-4AG"/>
+            </constraints>
+            <connections>
+                <outlet property="bottomCons" destination="CFZ-j3-wBX" id="jAD-DR-AVm"/>
+                <outlet property="iconView" destination="dgI-6G-Xhp" id="HrM-Zt-3qR"/>
+                <outlet property="iconWidthCons" destination="0cX-mm-e3Q" id="GW5-MQ-ihC"/>
+                <outlet property="tipLabel" destination="4Gr-g0-gD2" id="RYH-9w-0ZO"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="131.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ad_background" width="375" height="667"/>
+        <image name="avatar_default_big" width="85" height="85"/>
+    </resources>
+</document>

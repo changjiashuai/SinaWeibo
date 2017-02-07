@@ -1,0 +1,860 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HTTPMethod"
+- "NetworkManager"
+- "=="
+provides-nominal:
+- "O5Weibo10HTTPMethod"
+- "C5Weibo14NetworkManager"
+provides-member:
+- ["O5Weibo10HTTPMethod", ""]
+- ["C5Weibo14NetworkManager", ""]
+provides-dynamic-lookup:
+- "userLogon"
+- "shared"
+- "upload"
+- "userAccount"
+depends-top-level:
+- !private "Error"
+- "String"
+- !private "BooleanLiteralType"
+- "StringLiteralType"
+- "Data"
+- !private "print"
+- !private "NSNotification"
+- "=="
+- "AssignmentPrecedence"
+- "HTTPMethod"
+- "UserAccount"
+- "AFHTTPSessionManager"
+- !private "??"
+- !private "CastingPrecedence"
+- !private "UserShouldLoginNotification"
+- "NetworkManager"
+- !private "URLSessionDataTask"
+- "Bool"
+- !private "NotificationCenter"
+- !private "!="
+- !private "HTTPURLResponse"
+depends-member:
+- ["CSo24AFHTTPResponseSerializer", "acceptableContentTypes"]
+- ["CSo20AFHTTPSessionManager", "Bool"]
+- ["CSo20AFHTTPSessionManager", "Data"]
+- !private ["CSo20AFHTTPSessionManager", "Error"]
+- ["CSo20AFHTTPSessionManager", "HTTPMethod"]
+- !private ["CSo20AFHTTPSessionManager", "HTTPURLResponse"]
+- !private ["CSo20AFHTTPSessionManager", "NSNotification"]
+- ["CSo20AFHTTPSessionManager", "NetworkManager"]
+- !private ["CSo20AFHTTPSessionManager", "NotificationCenter"]
+- ["CSo20AFHTTPSessionManager", "String"]
+- !private ["CSo20AFHTTPSessionManager", "URLSessionDataTask"]
+- ["CSo20AFHTTPSessionManager", "UserAccount"]
+- !private ["CSo20AFHTTPSessionManager", "UserShouldLoginNotification"]
+- ["CSo20AFHTTPSessionManager", "deinit"]
+- !private ["CSo20AFHTTPSessionManager", "get"]
+- ["CSo20AFHTTPSessionManager", "init"]
+- !private ["CSo20AFHTTPSessionManager", "post"]
+- !private ["CSo20AFHTTPSessionManager", "print"]
+- ["CSo20AFHTTPSessionManager", "request"]
+- ["CSo20AFHTTPSessionManager", "responseSerializer"]
+- ["CSo20AFHTTPSessionManager", "shared"]
+- ["CSo20AFHTTPSessionManager", "tokenRequest"]
+- ["CSo20AFHTTPSessionManager", "upload"]
+- ["CSo20AFHTTPSessionManager", "userAccount"]
+- ["CSo20AFHTTPSessionManager", "userAccount.storage"]
+- ["CSo20AFHTTPSessionManager", "userLogon"]
+- ["CSo20AFHTTPSessionManager", ""]
+- !private ["PSo19AFMultipartFormData", "appendPart"]
+- !private ["PSo19AFMultipartFormData", "deinit"]
+- ["PSo26AFURLResponseSerialization", "acceptableContentTypes"]
+- ["CSo19AFURLSessionManager", "Bool"]
+- ["CSo19AFURLSessionManager", "Data"]
+- !private ["CSo19AFURLSessionManager", "Error"]
+- ["CSo19AFURLSessionManager", "HTTPMethod"]
+- !private ["CSo19AFURLSessionManager", "HTTPURLResponse"]
+- !private ["CSo19AFURLSessionManager", "NSNotification"]
+- ["CSo19AFURLSessionManager", "NetworkManager"]
+- !private ["CSo19AFURLSessionManager", "NotificationCenter"]
+- ["CSo19AFURLSessionManager", "String"]
+- !private ["CSo19AFURLSessionManager", "URLSessionDataTask"]
+- ["CSo19AFURLSessionManager", "UserAccount"]
+- !private ["CSo19AFURLSessionManager", "UserShouldLoginNotification"]
+- !private ["CSo19AFURLSessionManager", "get"]
+- ["CSo19AFURLSessionManager", "init"]
+- !private ["CSo19AFURLSessionManager", "post"]
+- !private ["CSo19AFURLSessionManager", "print"]
+- ["CSo19AFURLSessionManager", "request"]
+- ["CSo19AFURLSessionManager", "responseSerializer"]
+- ["CSo19AFURLSessionManager", "shared"]
+- ["CSo19AFURLSessionManager", "tokenRequest"]
+- ["CSo19AFURLSessionManager", "upload"]
+- ["CSo19AFURLSessionManager", "userAccount"]
+- ["CSo19AFURLSessionManager", "userAccount.storage"]
+- ["CSo19AFURLSessionManager", "userLogon"]
+- !private ["Ps9AnyObject", "NSNotification"]
+- !private ["Ps9AnyObject", "Name"]
+- ["Ps9AnyObject", "NetworkManager"]
+- !private ["Ps9AnyObject", "NotificationCenter"]
+- !private ["Ps9AnyObject", "String"]
+- ["Ps9AnyObject", "UserAccount"]
+- !private ["Ps9AnyObject", "UserShouldLoginNotification"]
+- ["Ps9AnyObject", "acceptableContentTypes"]
+- !private ["Ps9AnyObject", "access_token"]
+- !private ["Ps9AnyObject", "default"]
+- !private ["Ps9AnyObject", "get"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "post"]
+- !private ["Ps9AnyObject", "print"]
+- ["Ps9AnyObject", "request"]
+- !private ["Ps9AnyObject", "response"]
+- ["Ps9AnyObject", "responseSerializer"]
+- ["Ps9AnyObject", "shared"]
+- !private ["Ps9AnyObject", "statusCode"]
+- ["Ps9AnyObject", "tokenRequest"]
+- ["Ps9AnyObject", "upload"]
+- ["Ps9AnyObject", "userAccount"]
+- ["Ps9AnyObject", "userAccount.storage"]
+- ["Ps9AnyObject", "userLogon"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "NSNotification"]
+- !private ["Ps7CVarArg", "Name"]
+- ["Ps7CVarArg", "NetworkManager"]
+- !private ["Ps7CVarArg", "NotificationCenter"]
+- !private ["Ps7CVarArg", "String"]
+- ["Ps7CVarArg", "UserAccount"]
+- !private ["Ps7CVarArg", "UserShouldLoginNotification"]
+- ["Ps7CVarArg", "acceptableContentTypes"]
+- !private ["Ps7CVarArg", "access_token"]
+- !private ["Ps7CVarArg", "default"]
+- !private ["Ps7CVarArg", "get"]
+- !private ["Ps7CVarArg", "hashValue"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "insert"]
+- !private ["Ps7CVarArg", "post"]
+- !private ["Ps7CVarArg", "print"]
+- ["Ps7CVarArg", "request"]
+- !private ["Ps7CVarArg", "response"]
+- ["Ps7CVarArg", "responseSerializer"]
+- ["Ps7CVarArg", "shared"]
+- !private ["Ps7CVarArg", "statusCode"]
+- !private ["Ps7CVarArg", "subscript"]
+- ["Ps7CVarArg", "tokenRequest"]
+- ["Ps7CVarArg", "upload"]
+- ["Ps7CVarArg", "userAccount"]
+- ["Ps7CVarArg", "userAccount.storage"]
+- ["Ps7CVarArg", "userLogon"]
+- ["Ps7CVarArg", ""]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Collection", "Index"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "SubSequence"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "init"]
+- ["Ps10Collection", "insert"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "GET"]
+- !private ["Ps28CustomDebugStringConvertible", "NSNotification"]
+- !private ["Ps28CustomDebugStringConvertible", "Name"]
+- ["Ps28CustomDebugStringConvertible", "NetworkManager"]
+- !private ["Ps28CustomDebugStringConvertible", "NotificationCenter"]
+- !private ["Ps28CustomDebugStringConvertible", "String"]
+- ["Ps28CustomDebugStringConvertible", "UserAccount"]
+- !private ["Ps28CustomDebugStringConvertible", "UserShouldLoginNotification"]
+- ["Ps28CustomDebugStringConvertible", "acceptableContentTypes"]
+- !private ["Ps28CustomDebugStringConvertible", "access_token"]
+- !private ["Ps28CustomDebugStringConvertible", "default"]
+- !private ["Ps28CustomDebugStringConvertible", "get"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "insert"]
+- !private ["Ps28CustomDebugStringConvertible", "post"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- ["Ps28CustomDebugStringConvertible", "request"]
+- !private ["Ps28CustomDebugStringConvertible", "response"]
+- ["Ps28CustomDebugStringConvertible", "responseSerializer"]
+- ["Ps28CustomDebugStringConvertible", "shared"]
+- ["Ps28CustomDebugStringConvertible", "some"]
+- !private ["Ps28CustomDebugStringConvertible", "statusCode"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- ["Ps28CustomDebugStringConvertible", "tokenRequest"]
+- ["Ps28CustomDebugStringConvertible", "upload"]
+- ["Ps28CustomDebugStringConvertible", "userAccount"]
+- ["Ps28CustomDebugStringConvertible", "userAccount.storage"]
+- ["Ps28CustomDebugStringConvertible", "userLogon"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "GET"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps17CustomReflectable", "insert"]
+- ["Ps17CustomReflectable", "some"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "NSNotification"]
+- !private ["Ps23CustomStringConvertible", "Name"]
+- ["Ps23CustomStringConvertible", "NetworkManager"]
+- !private ["Ps23CustomStringConvertible", "NotificationCenter"]
+- !private ["Ps23CustomStringConvertible", "String"]
+- ["Ps23CustomStringConvertible", "UserAccount"]
+- !private ["Ps23CustomStringConvertible", "UserShouldLoginNotification"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "acceptableContentTypes"]
+- !private ["Ps23CustomStringConvertible", "access_token"]
+- !private ["Ps23CustomStringConvertible", "default"]
+- !private ["Ps23CustomStringConvertible", "get"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "insert"]
+- !private ["Ps23CustomStringConvertible", "post"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- ["Ps23CustomStringConvertible", "request"]
+- !private ["Ps23CustomStringConvertible", "response"]
+- ["Ps23CustomStringConvertible", "responseSerializer"]
+- ["Ps23CustomStringConvertible", "shared"]
+- !private ["Ps23CustomStringConvertible", "statusCode"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- ["Ps23CustomStringConvertible", "tokenRequest"]
+- ["Ps23CustomStringConvertible", "upload"]
+- ["Ps23CustomStringConvertible", "userAccount"]
+- ["Ps23CustomStringConvertible", "userAccount.storage"]
+- ["Ps23CustomStringConvertible", "userLogon"]
+- ["Ps23CustomStringConvertible", ""]
+- ["V10Foundation4Data", "deinit"]
+- ["Vs10Dictionary", "deinit"]
+- !private ["Vs10Dictionary", "init"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "GET"]
+- !private ["Ps9Equatable", "NSNotification"]
+- !private ["Ps9Equatable", "Name"]
+- ["Ps9Equatable", "NetworkManager"]
+- !private ["Ps9Equatable", "NotificationCenter"]
+- !private ["Ps9Equatable", "String"]
+- ["Ps9Equatable", "UserAccount"]
+- !private ["Ps9Equatable", "UserShouldLoginNotification"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- ["Ps9Equatable", "acceptableContentTypes"]
+- !private ["Ps9Equatable", "access_token"]
+- !private ["Ps9Equatable", "default"]
+- !private ["Ps9Equatable", "get"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "insert"]
+- !private ["Ps9Equatable", "post"]
+- !private ["Ps9Equatable", "print"]
+- ["Ps9Equatable", "request"]
+- !private ["Ps9Equatable", "response"]
+- ["Ps9Equatable", "responseSerializer"]
+- ["Ps9Equatable", "shared"]
+- !private ["Ps9Equatable", "statusCode"]
+- ["Ps9Equatable", "tokenRequest"]
+- ["Ps9Equatable", "upload"]
+- ["Ps9Equatable", "userAccount"]
+- ["Ps9Equatable", "userAccount.storage"]
+- ["Ps9Equatable", "userLogon"]
+- ["Ps9Equatable", ""]
+- !private ["Ps5Error", "deinit"]
+- ["Ps25ExpressibleByArrayLiteral", "insert"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- !private ["Ps23ExpressibleByNilLiteral", "GET"]
+- ["Ps23ExpressibleByNilLiteral", "some"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "deinit"]
+- ["O5Weibo10HTTPMethod", "=="]
+- ["O5Weibo10HTTPMethod", "GET"]
+- ["O5Weibo10HTTPMethod", "POST"]
+- ["O5Weibo10HTTPMethod", "_toAnyHashable"]
+- ["O5Weibo10HTTPMethod", "deinit"]
+- ["O5Weibo10HTTPMethod", "hashValue"]
+- !private ["CSo15HTTPURLResponse", "deinit"]
+- !private ["CSo15HTTPURLResponse", "statusCode"]
+- !private ["Ps8Hashable", "GET"]
+- !private ["Ps8Hashable", "NSNotification"]
+- !private ["Ps8Hashable", "Name"]
+- ["Ps8Hashable", "NetworkManager"]
+- !private ["Ps8Hashable", "NotificationCenter"]
+- !private ["Ps8Hashable", "String"]
+- ["Ps8Hashable", "UserAccount"]
+- !private ["Ps8Hashable", "UserShouldLoginNotification"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- ["Ps8Hashable", "acceptableContentTypes"]
+- !private ["Ps8Hashable", "access_token"]
+- !private ["Ps8Hashable", "default"]
+- !private ["Ps8Hashable", "get"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "insert"]
+- !private ["Ps8Hashable", "post"]
+- !private ["Ps8Hashable", "print"]
+- ["Ps8Hashable", "request"]
+- !private ["Ps8Hashable", "response"]
+- ["Ps8Hashable", "responseSerializer"]
+- ["Ps8Hashable", "shared"]
+- !private ["Ps8Hashable", "statusCode"]
+- ["Ps8Hashable", "tokenRequest"]
+- ["Ps8Hashable", "upload"]
+- ["Ps8Hashable", "userAccount"]
+- ["Ps8Hashable", "userAccount.storage"]
+- ["Ps8Hashable", "userLogon"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "init"]
+- ["Ps9Indexable", "insert"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Ps13IndexableBase", "Index"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "SubSequence"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "init"]
+- ["Ps13IndexableBase", "insert"]
+- !private ["Ps13IndexableBase", "subscript"]
+- !private ["Vs16IndexingIterator", "Element"]
+- ["Si", "deinit"]
+- !private ["Si", "hashValue"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- ["Ps10MirrorPath", "init"]
+- ["CSo7NSCoder", "deinit"]
+- !private ["PSo8NSCoding", "NSNotification"]
+- !private ["PSo8NSCoding", "Name"]
+- ["PSo8NSCoding", "NetworkManager"]
+- !private ["PSo8NSCoding", "NotificationCenter"]
+- !private ["PSo8NSCoding", "String"]
+- ["PSo8NSCoding", "UserAccount"]
+- !private ["PSo8NSCoding", "UserShouldLoginNotification"]
+- ["PSo8NSCoding", "acceptableContentTypes"]
+- !private ["PSo8NSCoding", "get"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "post"]
+- !private ["PSo8NSCoding", "print"]
+- ["PSo8NSCoding", "request"]
+- ["PSo8NSCoding", "responseSerializer"]
+- ["PSo8NSCoding", "shared"]
+- !private ["PSo8NSCoding", "statusCode"]
+- ["PSo8NSCoding", "tokenRequest"]
+- ["PSo8NSCoding", "upload"]
+- ["PSo8NSCoding", "userAccount"]
+- ["PSo8NSCoding", "userAccount.storage"]
+- ["PSo8NSCoding", "userLogon"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "NSNotification"]
+- !private ["PSo9NSCopying", "Name"]
+- ["PSo9NSCopying", "NetworkManager"]
+- !private ["PSo9NSCopying", "NotificationCenter"]
+- !private ["PSo9NSCopying", "String"]
+- ["PSo9NSCopying", "UserAccount"]
+- !private ["PSo9NSCopying", "UserShouldLoginNotification"]
+- ["PSo9NSCopying", "acceptableContentTypes"]
+- !private ["PSo9NSCopying", "get"]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "post"]
+- !private ["PSo9NSCopying", "print"]
+- ["PSo9NSCopying", "request"]
+- !private ["PSo9NSCopying", "response"]
+- ["PSo9NSCopying", "responseSerializer"]
+- ["PSo9NSCopying", "shared"]
+- !private ["PSo9NSCopying", "statusCode"]
+- ["PSo9NSCopying", "tokenRequest"]
+- ["PSo9NSCopying", "upload"]
+- ["PSo9NSCopying", "userAccount"]
+- ["PSo9NSCopying", "userAccount.storage"]
+- ["PSo9NSCopying", "userLogon"]
+- ["PSo9NSCopying", ""]
+- ["PSo16NSMutableCopying", "init"]
+- !private ["CSo14NSNotification", "Name"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "Data"]
+- !private ["CSo8NSObject", "Error"]
+- ["CSo8NSObject", "HTTPMethod"]
+- !private ["CSo8NSObject", "HTTPURLResponse"]
+- !private ["CSo8NSObject", "NSNotification"]
+- !private ["CSo8NSObject", "Name"]
+- ["CSo8NSObject", "NetworkManager"]
+- !private ["CSo8NSObject", "NotificationCenter"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "URLSessionDataTask"]
+- ["CSo8NSObject", "UserAccount"]
+- !private ["CSo8NSObject", "UserShouldLoginNotification"]
+- ["CSo8NSObject", "acceptableContentTypes"]
+- !private ["CSo8NSObject", "access_token"]
+- !private ["CSo8NSObject", "default"]
+- !private ["CSo8NSObject", "get"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "post"]
+- !private ["CSo8NSObject", "print"]
+- ["CSo8NSObject", "request"]
+- !private ["CSo8NSObject", "response"]
+- ["CSo8NSObject", "responseSerializer"]
+- ["CSo8NSObject", "shared"]
+- !private ["CSo8NSObject", "statusCode"]
+- ["CSo8NSObject", "tokenRequest"]
+- ["CSo8NSObject", "upload"]
+- ["CSo8NSObject", "userAccount"]
+- ["CSo8NSObject", "userAccount.storage"]
+- ["CSo8NSObject", "userLogon"]
+- !private ["PSo16NSObjectProtocol", "NSNotification"]
+- !private ["PSo16NSObjectProtocol", "Name"]
+- ["PSo16NSObjectProtocol", "NetworkManager"]
+- !private ["PSo16NSObjectProtocol", "NotificationCenter"]
+- !private ["PSo16NSObjectProtocol", "String"]
+- ["PSo16NSObjectProtocol", "UserAccount"]
+- !private ["PSo16NSObjectProtocol", "UserShouldLoginNotification"]
+- ["PSo16NSObjectProtocol", "acceptableContentTypes"]
+- !private ["PSo16NSObjectProtocol", "access_token"]
+- !private ["PSo16NSObjectProtocol", "default"]
+- !private ["PSo16NSObjectProtocol", "get"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "post"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- ["PSo16NSObjectProtocol", "request"]
+- !private ["PSo16NSObjectProtocol", "response"]
+- ["PSo16NSObjectProtocol", "responseSerializer"]
+- ["PSo16NSObjectProtocol", "shared"]
+- !private ["PSo16NSObjectProtocol", "statusCode"]
+- ["PSo16NSObjectProtocol", "tokenRequest"]
+- ["PSo16NSObjectProtocol", "upload"]
+- ["PSo16NSObjectProtocol", "userAccount"]
+- ["PSo16NSObjectProtocol", "userAccount.storage"]
+- ["PSo16NSObjectProtocol", "userLogon"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "NSNotification"]
+- ["PSo14NSSecureCoding", "NetworkManager"]
+- !private ["PSo14NSSecureCoding", "NotificationCenter"]
+- !private ["PSo14NSSecureCoding", "String"]
+- ["PSo14NSSecureCoding", "UserAccount"]
+- !private ["PSo14NSSecureCoding", "UserShouldLoginNotification"]
+- ["PSo14NSSecureCoding", "acceptableContentTypes"]
+- !private ["PSo14NSSecureCoding", "get"]
+- ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "post"]
+- !private ["PSo14NSSecureCoding", "print"]
+- ["PSo14NSSecureCoding", "request"]
+- ["PSo14NSSecureCoding", "responseSerializer"]
+- ["PSo14NSSecureCoding", "shared"]
+- !private ["PSo14NSSecureCoding", "statusCode"]
+- ["PSo14NSSecureCoding", "tokenRequest"]
+- ["PSo14NSSecureCoding", "upload"]
+- ["PSo14NSSecureCoding", "userAccount"]
+- ["PSo14NSSecureCoding", "userAccount.storage"]
+- ["PSo14NSSecureCoding", "userLogon"]
+- ["PSo14NSSecureCoding", ""]
+- ["CSo8NSString", "init"]
+- ["VCSo14NSNotification4Name", "deinit"]
+- !private ["VCSo14NSNotification4Name", "init"]
+- ["C5Weibo14NetworkManager", "Bool"]
+- ["C5Weibo14NetworkManager", "Data"]
+- !private ["C5Weibo14NetworkManager", "Error"]
+- ["C5Weibo14NetworkManager", "HTTPMethod"]
+- !private ["C5Weibo14NetworkManager", "HTTPURLResponse"]
+- !private ["C5Weibo14NetworkManager", "NSNotification"]
+- ["C5Weibo14NetworkManager", "NetworkManager"]
+- !private ["C5Weibo14NetworkManager", "NotificationCenter"]
+- ["C5Weibo14NetworkManager", "String"]
+- !private ["C5Weibo14NetworkManager", "URLSessionDataTask"]
+- ["C5Weibo14NetworkManager", "UserAccount"]
+- !private ["C5Weibo14NetworkManager", "UserShouldLoginNotification"]
+- ["C5Weibo14NetworkManager", "deinit"]
+- !private ["C5Weibo14NetworkManager", "get"]
+- ["C5Weibo14NetworkManager", "init"]
+- !private ["C5Weibo14NetworkManager", "post"]
+- !private ["C5Weibo14NetworkManager", "print"]
+- ["C5Weibo14NetworkManager", "request"]
+- ["C5Weibo14NetworkManager", "responseSerializer"]
+- ["C5Weibo14NetworkManager", "shared"]
+- ["C5Weibo14NetworkManager", "tokenRequest"]
+- ["C5Weibo14NetworkManager", "upload"]
+- ["C5Weibo14NetworkManager", "userAccount"]
+- !private ["C5Weibo14NetworkManager", "userAccount.storage"]
+- ["C5Weibo14NetworkManager", "userLogon"]
+- !private ["CSo18NotificationCenter", "default"]
+- ["CSo18NotificationCenter", "deinit"]
+- !private ["CSo18NotificationCenter", "post"]
+- !private ["Sq", "GET"]
+- ["Sq", "deinit"]
+- ["Sq", "some"]
+- !private ["Ps16RawRepresentable", "init"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Index"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "SubSequence"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "init"]
+- ["Ps8Sequence", "insert"]
+- !private ["Ps8Sequence", "subscript"]
+- ["Vs3Set", "insert"]
+- ["Ps10SetAlgebra", "insert"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "Iterator"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Ps10Strideable", "hashValue"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["CSo11URLResponse", "statusCode"]
+- !private ["PSo22URLSessionDataDelegate", "NSNotification"]
+- ["PSo22URLSessionDataDelegate", "NetworkManager"]
+- !private ["PSo22URLSessionDataDelegate", "NotificationCenter"]
+- !private ["PSo22URLSessionDataDelegate", "String"]
+- ["PSo22URLSessionDataDelegate", "UserAccount"]
+- !private ["PSo22URLSessionDataDelegate", "UserShouldLoginNotification"]
+- !private ["PSo22URLSessionDataDelegate", "get"]
+- ["PSo22URLSessionDataDelegate", "init"]
+- !private ["PSo22URLSessionDataDelegate", "post"]
+- !private ["PSo22URLSessionDataDelegate", "print"]
+- ["PSo22URLSessionDataDelegate", "request"]
+- ["PSo22URLSessionDataDelegate", "responseSerializer"]
+- ["PSo22URLSessionDataDelegate", "shared"]
+- ["PSo22URLSessionDataDelegate", "tokenRequest"]
+- ["PSo22URLSessionDataDelegate", "upload"]
+- ["PSo22URLSessionDataDelegate", "userAccount"]
+- ["PSo22URLSessionDataDelegate", "userAccount.storage"]
+- ["PSo22URLSessionDataDelegate", "userLogon"]
+- ["PSo22URLSessionDataDelegate", ""]
+- !private ["CSo18URLSessionDataTask", "deinit"]
+- !private ["CSo18URLSessionDataTask", "response"]
+- !private ["PSo18URLSessionDelegate", "NSNotification"]
+- ["PSo18URLSessionDelegate", "NetworkManager"]
+- !private ["PSo18URLSessionDelegate", "NotificationCenter"]
+- !private ["PSo18URLSessionDelegate", "String"]
+- ["PSo18URLSessionDelegate", "UserAccount"]
+- !private ["PSo18URLSessionDelegate", "UserShouldLoginNotification"]
+- !private ["PSo18URLSessionDelegate", "get"]
+- ["PSo18URLSessionDelegate", "init"]
+- !private ["PSo18URLSessionDelegate", "post"]
+- !private ["PSo18URLSessionDelegate", "print"]
+- ["PSo18URLSessionDelegate", "request"]
+- ["PSo18URLSessionDelegate", "responseSerializer"]
+- ["PSo18URLSessionDelegate", "shared"]
+- ["PSo18URLSessionDelegate", "tokenRequest"]
+- ["PSo18URLSessionDelegate", "upload"]
+- ["PSo18URLSessionDelegate", "userAccount"]
+- ["PSo18URLSessionDelegate", "userAccount.storage"]
+- ["PSo18URLSessionDelegate", "userLogon"]
+- ["PSo18URLSessionDelegate", ""]
+- !private ["PSo26URLSessionDownloadDelegate", "NSNotification"]
+- ["PSo26URLSessionDownloadDelegate", "NetworkManager"]
+- !private ["PSo26URLSessionDownloadDelegate", "NotificationCenter"]
+- !private ["PSo26URLSessionDownloadDelegate", "String"]
+- ["PSo26URLSessionDownloadDelegate", "UserAccount"]
+- !private ["PSo26URLSessionDownloadDelegate", "UserShouldLoginNotification"]
+- !private ["PSo26URLSessionDownloadDelegate", "get"]
+- ["PSo26URLSessionDownloadDelegate", "init"]
+- !private ["PSo26URLSessionDownloadDelegate", "post"]
+- !private ["PSo26URLSessionDownloadDelegate", "print"]
+- ["PSo26URLSessionDownloadDelegate", "request"]
+- ["PSo26URLSessionDownloadDelegate", "responseSerializer"]
+- ["PSo26URLSessionDownloadDelegate", "shared"]
+- ["PSo26URLSessionDownloadDelegate", "tokenRequest"]
+- ["PSo26URLSessionDownloadDelegate", "upload"]
+- ["PSo26URLSessionDownloadDelegate", "userAccount"]
+- ["PSo26URLSessionDownloadDelegate", "userAccount.storage"]
+- ["PSo26URLSessionDownloadDelegate", "userLogon"]
+- ["PSo26URLSessionDownloadDelegate", ""]
+- !private ["CSo14URLSessionTask", "response"]
+- !private ["PSo22URLSessionTaskDelegate", "NSNotification"]
+- ["PSo22URLSessionTaskDelegate", "NetworkManager"]
+- !private ["PSo22URLSessionTaskDelegate", "NotificationCenter"]
+- !private ["PSo22URLSessionTaskDelegate", "String"]
+- ["PSo22URLSessionTaskDelegate", "UserAccount"]
+- !private ["PSo22URLSessionTaskDelegate", "UserShouldLoginNotification"]
+- !private ["PSo22URLSessionTaskDelegate", "get"]
+- ["PSo22URLSessionTaskDelegate", "init"]
+- !private ["PSo22URLSessionTaskDelegate", "post"]
+- !private ["PSo22URLSessionTaskDelegate", "print"]
+- ["PSo22URLSessionTaskDelegate", "request"]
+- ["PSo22URLSessionTaskDelegate", "responseSerializer"]
+- ["PSo22URLSessionTaskDelegate", "shared"]
+- ["PSo22URLSessionTaskDelegate", "tokenRequest"]
+- ["PSo22URLSessionTaskDelegate", "upload"]
+- ["PSo22URLSessionTaskDelegate", "userAccount"]
+- ["PSo22URLSessionTaskDelegate", "userAccount.storage"]
+- ["PSo22URLSessionTaskDelegate", "userLogon"]
+- ["PSo22URLSessionTaskDelegate", ""]
+- !private ["Sc", "deinit"]
+- !private ["C5Weibo11UserAccount", "access_token"]
+- ["C5Weibo11UserAccount", "deinit"]
+- ["C5Weibo11UserAccount", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "Name"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "GET"]
+- !private ["Ps9_Hashable", "NSNotification"]
+- !private ["Ps9_Hashable", "Name"]
+- ["Ps9_Hashable", "NetworkManager"]
+- !private ["Ps9_Hashable", "NotificationCenter"]
+- !private ["Ps9_Hashable", "String"]
+- ["Ps9_Hashable", "UserAccount"]
+- !private ["Ps9_Hashable", "UserShouldLoginNotification"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- ["Ps9_Hashable", "acceptableContentTypes"]
+- !private ["Ps9_Hashable", "access_token"]
+- !private ["Ps9_Hashable", "default"]
+- !private ["Ps9_Hashable", "get"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "insert"]
+- !private ["Ps9_Hashable", "post"]
+- !private ["Ps9_Hashable", "print"]
+- ["Ps9_Hashable", "request"]
+- !private ["Ps9_Hashable", "response"]
+- ["Ps9_Hashable", "responseSerializer"]
+- ["Ps9_Hashable", "shared"]
+- !private ["Ps9_Hashable", "statusCode"]
+- ["Ps9_Hashable", "tokenRequest"]
+- ["Ps9_Hashable", "upload"]
+- ["Ps9_Hashable", "userAccount"]
+- ["Ps9_Hashable", "userAccount.storage"]
+- ["Ps9_Hashable", "userLogon"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- ["Ps21_ObjectiveCBridgeable", "insert"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Vs26_OptionalNilComparisonType", "GET"]
+- ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+- !private ["Ps20_SwiftNewtypeWrapper", "init"]
+depends-nominal:
+- "CSo24AFHTTPResponseSerializer"
+- "CSo20AFHTTPSessionManager"
+- !private "PSo19AFMultipartFormData"
+- "PSo26AFURLResponseSerialization"
+- "CSo19AFURLSessionManager"
+- "Ps9AnyObject"
+- !private "Ps17BitwiseOperations"
+- "Sb"
+- "Ps7CVarArg"
+- !private "Vs9Character"
+- "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "V10Foundation4Data"
+- "Vs10Dictionary"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps23ExpressibleByNilLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- "O5Weibo10HTTPMethod"
+- !private "CSo15HTTPURLResponse"
+- "Ps8Hashable"
+- "Ps9Indexable"
+- "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps16IteratorProtocol"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- !private "CSo14NSNotification"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "VCSo14NSNotification4Name"
+- "C5Weibo14NetworkManager"
+- "CSo18NotificationCenter"
+- "Sq"
+- !private "Ps16RawRepresentable"
+- "Ps8Sequence"
+- "Vs3Set"
+- "Ps10SetAlgebra"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Vs5Slice"
+- !private "Ps10Strideable"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "CSo11URLResponse"
+- "PSo22URLSessionDataDelegate"
+- !private "CSo18URLSessionDataTask"
+- "PSo18URLSessionDelegate"
+- "PSo26URLSessionDownloadDelegate"
+- !private "CSo14URLSessionTask"
+- "PSo22URLSessionTaskDelegate"
+- !private "Sc"
+- "C5Weibo11UserAccount"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- "Ps21_ObjectiveCBridgeable"
+- "Vs26_OptionalNilComparisonType"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+- !private "Ps20_SwiftNewtypeWrapper"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Weibo-Bridge.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/CZAdditions.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/UILabel+CZAddition.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/UIButton+CZAddition.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/UIColor+CZAddition.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/UIView+CZAddition.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/UIScreen+CZAddition.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/UIViewController+CZAddition.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/NSObject+CZRuntime.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/NSAttributedString+CZAdditon.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/NSString+CZHash.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/NSString+CZBase64.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/Additions/NSString+CZPath.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/Weibo/Classes/Tools/PhotoBrowser/HMPhotoBrowserController.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/SDWebImageDecoder.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SDWebImage.framework/Modules/module.modulemap"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SVProgressHUD.framework/Headers/SVIndefiniteAnimatedView.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SVProgressHUD.framework/Headers/SVProgressHUD-umbrella.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/SVProgressHUD.framework/Modules/module.modulemap"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POPLayerExtras.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POPDecayAnimation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POPCustomAnimation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POPBasicAnimation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POPAnimator.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POPPropertyAnimation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POPSpringAnimation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POPAnimationExtras.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POPGeometry.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POPAnimationEvent.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POPAnimationTracer.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POPAnimation.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POPAnimatableProperty.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POPDefines.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/POP.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Headers/pop-umbrella.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/pop.framework/Modules/module.modulemap"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/UIProgressView+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/UIWebView+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/UIRefreshControl+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/UIKit+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/UIImageView+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/UIImage+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/UIButton+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/UIActivityIndicatorView+AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworkActivityIndicatorManager.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/AFImageDownloader.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/AFAutoPurgingImageCache.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/AFHTTPSessionManager.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/AFURLSessionManager.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworkReachabilityManager.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/AFSecurityPolicy.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/AFURLResponseSerialization.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/AFURLRequestSerialization.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworking.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworking-umbrella.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/AFNetworking.framework/Modules/module.modulemap"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/YYModel.framework/Headers/YYModel.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/YYModel.framework/Headers/YYClassInfo.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/YYModel.framework/Headers/NSObject+YYModel.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/YYModel.framework/Headers/YYModel-umbrella.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/YYModel.framework/Modules/module.modulemap"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/FMDB.framework/Headers/FMDB.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/FMDB.framework/Headers/FMDatabaseQueue.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/FMDB.framework/Headers/FMDatabaseAdditions.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/FMDB.framework/Headers/FMDatabasePool.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/FMDB.framework/Headers/FMResultSet.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/FMDB.framework/Headers/FMDatabase.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/FMDB.framework/Headers/FMDB-umbrella.h"
+- "/Users/CJS/Documents/Workspace/iOS/GithubSample/iOSPractice/Weibo/build/Debug-iphoneos/FMDB.framework/Modules/module.modulemap"
+interface-hash: "06aaf2739886f67482c672acf891de76"

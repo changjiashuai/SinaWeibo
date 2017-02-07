@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11198.2" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="NewFeatureView" customModule="Weibo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6fM-GW-zCz">
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </scrollView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XPp-Gz-92P">
+                    <state key="normal" title="进入微博" backgroundImage="new_feature_finish_button"/>
+                    <state key="highlighted" backgroundImage="new_feature_finish_button_highlighted"/>
+                    <connections>
+                        <action selector="enterStatus" destination="iN0-l3-epB" eventType="touchUpInside" id="Vcl-ru-std"/>
+                    </connections>
+                </button>
+                <pageControl opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" translatesAutoresizingMaskIntoConstraints="NO" id="Ntt-vi-kw3">
+                    <color key="pageIndicatorTintColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="currentPageIndicatorTintColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </pageControl>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="6fM-GW-zCz" secondAttribute="bottom" id="0cT-ru-Sla"/>
+                <constraint firstItem="6fM-GW-zCz" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="0k3-6S-NZK"/>
+                <constraint firstItem="Ntt-vi-kw3" firstAttribute="centerX" secondItem="XPp-Gz-92P" secondAttribute="centerX" id="5wH-1N-oeh"/>
+                <constraint firstItem="6fM-GW-zCz" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="7l7-yl-BIU"/>
+                <constraint firstItem="Ntt-vi-kw3" firstAttribute="top" secondItem="XPp-Gz-92P" secondAttribute="bottom" constant="20" id="I63-Dg-txa"/>
+                <constraint firstAttribute="trailing" secondItem="6fM-GW-zCz" secondAttribute="trailing" id="amn-Mh-m3F"/>
+                <constraint firstItem="XPp-Gz-92P" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="eex-LM-2q4"/>
+                <constraint firstItem="6fM-GW-zCz" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="gZv-8H-KNl"/>
+                <constraint firstItem="6fM-GW-zCz" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ifY-Jv-MLC"/>
+                <constraint firstAttribute="trailing" secondItem="6fM-GW-zCz" secondAttribute="trailing" id="p2J-s6-Neq"/>
+                <constraint firstAttribute="bottom" secondItem="XPp-Gz-92P" secondAttribute="bottom" constant="119" id="r1Q-PG-c5Z"/>
+            </constraints>
+            <connections>
+                <outlet property="enterButton" destination="XPp-Gz-92P" id="oV8-Bc-Wuq"/>
+                <outlet property="pageControl" destination="Ntt-vi-kw3" id="ckc-Zp-jt8"/>
+                <outlet property="scrollView" destination="6fM-GW-zCz" id="E7C-SO-eeM"/>
+            </connections>
+            <point key="canvasLocation" x="34.5" y="53.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="new_feature_finish_button" width="105" height="36"/>
+        <image name="new_feature_finish_button_highlighted" width="105" height="36"/>
+    </resources>
+</document>
